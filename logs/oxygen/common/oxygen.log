@@ -1,0 +1,204 @@
+[13-Oct-2022 08:06:53] [Oxygen Network #0 CLIENT] [Oxygen]: [Core] Synchronized main data.
+[13-Oct-2022 08:06:53] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_core>.
+[13-Oct-2022 08:06:54] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_core:privileges>.
+[13-Oct-2022 08:06:54] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_dailyrewards>.
+[13-Oct-2022 08:06:54] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_groups>.
+[13-Oct-2022 08:06:54] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_mail>.
+[13-Oct-2022 08:06:54] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_market>.
+[13-Oct-2022 08:06:54] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_menu>.
+[13-Oct-2022 08:06:56] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_merchants>.
+[13-Oct-2022 08:06:56] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_playerslist>.
+[13-Oct-2022 08:06:56] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_teleportation>.
+[13-Oct-2022 08:06:56] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Server zone-time data: 2022-10-13 08:06:13 CEST
+[13-Oct-2022 08:06:56] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Client initialized.
+[13-Oct-2022 08:06:56] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized <1> roles data entries.
+[13-Oct-2022 08:06:56] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Player roles data received.
+[13-Oct-2022 08:06:56] [Oxygen Routine #0 CLIENT] [Oxygen]: [Daily Rewards] Rewards data synchronized.
+[13-Oct-2022 08:06:56] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Client setting file created.
+[13-Oct-2022 08:06:56] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Presets loading started...
+[13-Oct-2022 08:06:56] [Oxygen Routine #0 CLIENT] [Oxygen]: [Daily Rewards] Player data synchronized - days rewarded this month: 0, last reward time: 1970-01-01 01:00:01 CET
+[13-Oct-2022 08:06:56] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Failed to load preset <item_categories> version id.
+[13-Oct-2022 08:06:56] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Preset <item_categories> is outdated, sync requested.
+[13-Oct-2022 08:07:11] [Client thread] [Oxygen]: [Core] Created currency properties file with index: <0>.
+[13-Oct-2022 08:07:11] [Client thread] [Oxygen]: [Core] Created currency icon with index: <0>.
+[13-Oct-2022 08:07:11] [Client thread] [Oxygen]: [Core] Created currency properties file with index: <1>.
+[13-Oct-2022 08:07:11] [Client thread] [Oxygen]: [Core] Created currency icon with index: <1>.
+[13-Oct-2022 08:07:11] [Client thread] [Oxygen]: [Core] Created currency properties file with index: <2>.
+[13-Oct-2022 08:07:11] [Client thread] [Oxygen]: [Core] Created currency icon with index: <2>.
+[13-Oct-2022 08:07:45] [Oxygen Network #0 CLIENT] [Oxygen]: [Core] Synchronized main data.
+[13-Oct-2022 08:07:45] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_core>.
+[13-Oct-2022 08:07:45] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_core:privileges>.
+[13-Oct-2022 08:07:45] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_dailyrewards>.
+[13-Oct-2022 08:07:45] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_groups>.
+[13-Oct-2022 08:07:45] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_mail>.
+[13-Oct-2022 08:07:45] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_market>.
+[13-Oct-2022 08:07:45] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_menu>.
+[13-Oct-2022 08:07:45] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_merchants>.
+[13-Oct-2022 08:07:46] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_playerslist>.
+[13-Oct-2022 08:07:46] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_teleportation>.
+[13-Oct-2022 08:07:46] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Server zone-time data: 2022-10-13 08:07:13 CEST
+[13-Oct-2022 08:07:46] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Client initialized.
+[13-Oct-2022 08:07:46] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized <1> roles data entries.
+[13-Oct-2022 08:07:46] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Player roles data received.
+[13-Oct-2022 08:07:46] [Oxygen Routine #0 CLIENT] [Oxygen]: [Daily Rewards] Rewards data synchronized.
+[13-Oct-2022 08:07:46] [Client thread] [Oxygen]: [Core] Loaded currency properties with index: <0>.
+[13-Oct-2022 08:07:46] [Client thread] [Oxygen]: [Core] Loaded currency icon with index: <0>.
+[13-Oct-2022 08:07:46] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Client setting loaded.
+[13-Oct-2022 08:07:46] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Presets loading started...
+[13-Oct-2022 08:07:46] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Failed to load preset <item_categories> version id.
+[13-Oct-2022 08:07:46] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Preset <item_categories> is outdated, sync requested.
+[13-Oct-2022 08:07:46] [Client thread] [Oxygen]: [Core] Loaded currency properties with index: <1>.
+[13-Oct-2022 08:07:47] [Client thread] [Oxygen]: [Core] Loaded currency icon with index: <1>.
+[13-Oct-2022 08:07:47] [Client thread] [Oxygen]: [Core] Loaded currency properties with index: <2>.
+[13-Oct-2022 08:07:47] [Client thread] [Oxygen]: [Core] Loaded currency icon with index: <2>.
+[13-Oct-2022 08:07:48] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Received raw preset <item_categories> data, processing...
+[13-Oct-2022 08:07:48] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Preset <item_categories> saved successfully.
+[13-Oct-2022 08:07:48] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Reloading preset <item_categories>...
+[13-Oct-2022 08:07:48] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Preset <item_categories> loaded successfully.
+[13-Oct-2022 08:11:38] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized 1 shared data entries.
+[13-Oct-2022 08:11:43] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized 1 shared data entries.
+[13-Oct-2022 14:04:45] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_core>.
+[13-Oct-2022 14:04:46] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_core:privileges>.
+[13-Oct-2022 14:04:46] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_dailyrewards>.
+[13-Oct-2022 14:04:46] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_groups>.
+[13-Oct-2022 14:04:46] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_mail>.
+[13-Oct-2022 14:04:46] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_market>.
+[13-Oct-2022 14:04:46] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_menu>.
+[13-Oct-2022 14:04:46] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_merchants>.
+[13-Oct-2022 14:04:46] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_playerslist>.
+[13-Oct-2022 14:04:46] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_teleportation>.
+[13-Oct-2022 14:04:46] [Client thread] [Oxygen]: [Core] Network handler <oxygen_core> created.
+[13-Oct-2022 14:04:47] [Client thread] [Oxygen]: [Core] Registered <core:shared_data_server> persistent data.
+[13-Oct-2022 14:04:48] [Client thread] [Oxygen]: [Daily Rewards] Scheduled rewards reloading for <November> at: 2022-11-01 00:00:01 CET
+[13-Oct-2022 14:04:49] [Client thread] [Oxygen]: [Core] Registered <groups:groups_data_server> persistent data.
+[13-Oct-2022 14:04:49] [Client thread] [Oxygen]: [Core] Registered <mail:mailboxes_server> persistent data.
+[13-Oct-2022 14:04:49] [Client thread] [Oxygen]: [Core] Registered <mail:mailbox_client> persistent data.
+[13-Oct-2022 14:04:50] [Client thread] [Oxygen]: [Core] Registered <market:offers_data_server> persistent data.
+[13-Oct-2022 14:04:50] [Client thread] [Oxygen]: [Core] Registered <market:sales_history_server> persistent data.
+[13-Oct-2022 14:04:50] [Client thread] [Oxygen]: [Core] Registered <market:offers_data_client> persistent data.
+[13-Oct-2022 14:04:50] [Client thread] [Oxygen]: [Core] Registered <market:sales_history_client> persistent data.
+[13-Oct-2022 14:04:51] [Client thread] [Oxygen]: [Core] Registered <merchants:merchant_profiles_client> persistent data.
+[13-Oct-2022 14:04:51] [Client thread] [Oxygen]: [Core] Registered <teleportation:shared_camps_server> persistent data.
+[13-Oct-2022 14:04:51] [Client thread] [Oxygen]: [Core] Registered <teleportation:locations_server> persistent data.
+[13-Oct-2022 14:04:51] [Client thread] [Oxygen]: [Core] Registered <teleportation:player_data> persistent data.
+[13-Oct-2022 14:04:51] [Client thread] [Oxygen]: [Core] Registered <teleportation:shared_camps_client> persistent data.
+[13-Oct-2022 14:04:51] [Client thread] [Oxygen]: [Core] Registered <teleportation:locations_client> persistent data.
+[13-Oct-2022 14:05:02] [Client thread] [Oxygen]: [Core] Network channel <oxygen_core> holds 85 packets.
+[13-Oct-2022 14:05:03] [Oxygen IO #1 SERVER] [Oxygen]: [Core] Presets loading started...
+[13-Oct-2022 14:05:03] [Oxygen IO #0 SERVER] [Oxygen]: [Core] Loaded items blacklist for <mail>.
+[13-Oct-2022 14:05:03] [Oxygen IO #0 SERVER] [Oxygen]: [Core] Loaded items blacklist for <market>.
+[13-Oct-2022 14:05:03] [Oxygen IO #1 SERVER] [Oxygen]: [Core] Preset <item_categories> loaded successfully.
+[13-Oct-2022 14:10:23] [Oxygen Network #0 CLIENT] [Oxygen]: [Core] Synchronized main data.
+[13-Oct-2022 14:10:23] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_core>.
+[13-Oct-2022 14:10:23] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_core:privileges>.
+[13-Oct-2022 14:10:23] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_dailyrewards>.
+[13-Oct-2022 14:10:23] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_groups>.
+[13-Oct-2022 14:10:23] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_mail>.
+[13-Oct-2022 14:10:23] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_market>.
+[13-Oct-2022 14:10:23] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_menu>.
+[13-Oct-2022 14:10:23] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_merchants>.
+[13-Oct-2022 14:10:23] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_playerslist>.
+[13-Oct-2022 14:10:23] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_teleportation>.
+[13-Oct-2022 14:10:23] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Server zone-time data: 2022-10-13 14:10:13 CEST
+[13-Oct-2022 14:10:24] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Client initialized.
+[13-Oct-2022 14:10:24] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized <1> roles data entries.
+[13-Oct-2022 14:10:24] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Player roles data received.
+[13-Oct-2022 14:10:24] [Oxygen Routine #0 CLIENT] [Oxygen]: [Daily Rewards] Rewards data synchronized.
+[13-Oct-2022 14:10:24] [Oxygen Routine #0 CLIENT] [Oxygen]: [Daily Rewards] Player data synchronized - days rewarded this month: 0, last reward time: 1970-01-01 01:00:01 CET
+[13-Oct-2022 14:10:26] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Client setting loaded.
+[13-Oct-2022 14:10:26] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Presets loading started...
+[13-Oct-2022 14:10:26] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Preset <item_categories> version id loaded successfully.
+[13-Oct-2022 14:10:26] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Preset <item_categories> is up-to-date, loading...
+[13-Oct-2022 14:10:26] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Preset <item_categories> loaded successfully.
+[13-Oct-2022 14:10:37] [Client thread] [Oxygen]: [Core] Loaded currency properties with index: <0>.
+[13-Oct-2022 14:10:37] [Client thread] [Oxygen]: [Core] Loaded currency icon with index: <0>.
+[13-Oct-2022 14:10:37] [Client thread] [Oxygen]: [Core] Loaded currency properties with index: <1>.
+[13-Oct-2022 14:10:37] [Client thread] [Oxygen]: [Core] Loaded currency icon with index: <1>.
+[13-Oct-2022 14:10:38] [Client thread] [Oxygen]: [Core] Loaded currency properties with index: <2>.
+[13-Oct-2022 14:10:38] [Client thread] [Oxygen]: [Core] Loaded currency icon with index: <2>.
+[13-Oct-2022 14:10:59] [Oxygen Network #0 CLIENT] [Oxygen]: [Core] Synchronized main data.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_core>.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_core:privileges>.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_dailyrewards>.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_groups>.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_mail>.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_market>.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_menu>.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_merchants>.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_playerslist>.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_teleportation>.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Server zone-time data: 2022-10-13 14:10:13 CEST
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Client initialized.
+[13-Oct-2022 14:10:59] [Client thread] [Oxygen]: [Core] Loaded currency properties with index: <0>.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized <1> roles data entries.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Player roles data received.
+[13-Oct-2022 14:10:59] [Oxygen Routine #0 CLIENT] [Oxygen]: [Daily Rewards] Rewards data synchronized.
+[13-Oct-2022 14:10:59] [Client thread] [Oxygen]: [Core] Loaded currency icon with index: <0>.
+[13-Oct-2022 14:10:59] [Client thread] [Oxygen]: [Core] Loaded currency properties with index: <1>.
+[13-Oct-2022 14:10:59] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Client setting loaded.
+[13-Oct-2022 14:10:59] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Presets loading started...
+[13-Oct-2022 14:10:59] [Client thread] [Oxygen]: [Core] Loaded currency icon with index: <1>.
+[13-Oct-2022 14:10:59] [Client thread] [Oxygen]: [Core] Loaded currency properties with index: <2>.
+[13-Oct-2022 14:10:59] [Client thread] [Oxygen]: [Core] Loaded currency icon with index: <2>.
+[13-Oct-2022 14:10:59] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Preset <item_categories> version id loaded successfully.
+[13-Oct-2022 14:10:59] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Preset <item_categories> is up-to-date, loading...
+[13-Oct-2022 14:10:59] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Preset <item_categories> loaded successfully.
+[13-Oct-2022 14:17:54] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_core>.
+[13-Oct-2022 14:17:54] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_core:privileges>.
+[13-Oct-2022 14:17:54] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_dailyrewards>.
+[13-Oct-2022 14:17:54] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_groups>.
+[13-Oct-2022 14:17:54] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_mail>.
+[13-Oct-2022 14:17:54] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_market>.
+[13-Oct-2022 14:17:54] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_menu>.
+[13-Oct-2022 14:17:54] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_merchants>.
+[13-Oct-2022 14:17:54] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_playerslist>.
+[13-Oct-2022 14:17:54] [Client thread] [Oxygen]: [Core] Loaded config for <oxygen_teleportation>.
+[13-Oct-2022 14:17:54] [Client thread] [Oxygen]: [Core] Network handler <oxygen_core> created.
+[13-Oct-2022 14:17:54] [Client thread] [Oxygen]: [Core] Registered <core:shared_data_server> persistent data.
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Daily Rewards] Scheduled rewards reloading for <November> at: 2022-11-01 00:00:01 CET
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Core] Registered <groups:groups_data_server> persistent data.
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Core] Registered <mail:mailboxes_server> persistent data.
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Core] Registered <mail:mailbox_client> persistent data.
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Core] Registered <market:offers_data_server> persistent data.
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Core] Registered <market:sales_history_server> persistent data.
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Core] Registered <market:offers_data_client> persistent data.
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Core] Registered <market:sales_history_client> persistent data.
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Core] Registered <merchants:merchant_profiles_client> persistent data.
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Core] Registered <teleportation:shared_camps_server> persistent data.
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Core] Registered <teleportation:locations_server> persistent data.
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Core] Registered <teleportation:player_data> persistent data.
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Core] Registered <teleportation:shared_camps_client> persistent data.
+[13-Oct-2022 14:17:55] [Client thread] [Oxygen]: [Core] Registered <teleportation:locations_client> persistent data.
+[13-Oct-2022 14:18:02] [Client thread] [Oxygen]: [Core] Network channel <oxygen_core> holds 85 packets.
+[13-Oct-2022 14:18:02] [Oxygen IO #1 SERVER] [Oxygen]: [Core] Presets loading started...
+[13-Oct-2022 14:18:02] [Oxygen IO #0 SERVER] [Oxygen]: [Core] Loaded items blacklist for <mail>.
+[13-Oct-2022 14:18:02] [Oxygen IO #1 SERVER] [Oxygen]: [Core] Preset <item_categories> loaded successfully.
+[13-Oct-2022 14:18:02] [Oxygen IO #0 SERVER] [Oxygen]: [Core] Loaded items blacklist for <market>.
+[13-Oct-2022 14:19:30] [Oxygen Network #0 CLIENT] [Oxygen]: [Core] Synchronized main data.
+[13-Oct-2022 14:19:30] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_core>.
+[13-Oct-2022 14:19:30] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_core:privileges>.
+[13-Oct-2022 14:19:30] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_dailyrewards>.
+[13-Oct-2022 14:19:30] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_groups>.
+[13-Oct-2022 14:19:30] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_mail>.
+[13-Oct-2022 14:19:30] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_market>.
+[13-Oct-2022 14:19:30] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_menu>.
+[13-Oct-2022 14:19:30] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_merchants>.
+[13-Oct-2022 14:19:30] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_playerslist>.
+[13-Oct-2022 14:19:30] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized config for <oxygen_teleportation>.
+[13-Oct-2022 14:19:30] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Server zone-time data: 2022-10-13 14:19:13 CEST
+[13-Oct-2022 14:19:30] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Client initialized.
+[13-Oct-2022 14:19:31] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Synchronized <1> roles data entries.
+[13-Oct-2022 14:19:31] [Oxygen Routine #0 CLIENT] [Oxygen]: [Core] Player roles data received.
+[13-Oct-2022 14:19:31] [Client thread] [Oxygen]: [Core] Loaded currency properties with index: <0>.
+[13-Oct-2022 14:19:31] [Oxygen Routine #0 CLIENT] [Oxygen]: [Daily Rewards] Rewards data synchronized.
+[13-Oct-2022 14:19:31] [Oxygen Routine #0 CLIENT] [Oxygen]: [Daily Rewards] Player data synchronized - days rewarded this month: 0, last reward time: 1970-01-01 01:00:01 CET
+[13-Oct-2022 14:19:31] [Client thread] [Oxygen]: [Core] Loaded currency icon with index: <0>.
+[13-Oct-2022 14:19:31] [Client thread] [Oxygen]: [Core] Loaded currency properties with index: <1>.
+[13-Oct-2022 14:19:31] [Client thread] [Oxygen]: [Core] Loaded currency icon with index: <1>.
+[13-Oct-2022 14:19:31] [Client thread] [Oxygen]: [Core] Loaded currency properties with index: <2>.
+[13-Oct-2022 14:19:31] [Client thread] [Oxygen]: [Core] Loaded currency icon with index: <2>.
+[13-Oct-2022 14:19:31] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Client setting loaded.
+[13-Oct-2022 14:19:31] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Presets loading started...
+[13-Oct-2022 14:19:31] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Preset <item_categories> version id loaded successfully.
+[13-Oct-2022 14:19:31] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Preset <item_categories> is up-to-date, loading...
+[13-Oct-2022 14:19:31] [Oxygen IO #0 CLIENT] [Oxygen]: [Core] Preset <item_categories> loaded successfully.
