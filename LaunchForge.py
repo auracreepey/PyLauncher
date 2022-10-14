@@ -1,8 +1,9 @@
-    #On lance minecraft (Enfin!!!)
-    #===========================================================
-    #            Gestion et lancement de minecraft
-    #===========================================================
+#On lance minecraft (Enfin!!!)
+#===========================================================
+#            Gestion et lancement de minecraft
+#===========================================================
 
+#Todo: Ajouter la quantité de ram adaptative
 
 
 

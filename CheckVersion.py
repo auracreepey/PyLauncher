@@ -1,3 +1,8 @@
+#-----------------------------------------
+#      Vérification des mises à jour
+#-----------------------------------------
+#Ce programme vérifie que le launcher est à jour
+
 import wget
 from zipfile import ZipFile
 import os

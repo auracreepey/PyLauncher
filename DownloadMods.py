@@ -1,3 +1,8 @@
+#-----------------------------------------
+#    Téléchargement des mods et assets
+#-----------------------------------------
+#Les mods, et les assets non-essensiel (guis personalisés, touches pré-configurés, etc...)
+
 import wget
 from zipfile import ZipFile
 import os
