@@ -7,6 +7,8 @@ mcversion = "1.12.2"
 #===========================================================
 #                ----Initialisation----
 #===========================================================
+#Imporation des modules, vérification de la connexion internet et
+#des mises à jours....
 
 #la fonction print() affiche des infos utiles dans les logs
 #Cela permet de savoir ce qui ce passe en temps réel
@@ -17,7 +19,7 @@ print("----------------------------------")
 
 
 #===========================================================
-#           ----Importation des library----
+#           ----Importation des modules----
 #===========================================================
 
 print("Importation des libs...")

@@ -1,13 +1,10 @@
-#On lance minecraft (Enfin!!!)
 #===========================================================
 #            Gestion et lancement de minecraft
 #===========================================================
 
-#Todo: Ajouter la quantité de ram adaptative
 
 
-
-#Importation des library
+#Importation des modules
 import minecraft_launcher_lib
 import sys
 import subprocess
@@ -36,21 +33,23 @@ launch_version_id = "1.12.2-forge-14.23.5.2860"
 #Allocution de ram pour java
 ram = "3"
 
-#---Installation du jeu---#
-
 print("Version de minecraft: " + mcversion)
 
 
 
-
-#Lancement du jeu
 print("Préparation du lancement du jeu")
 
-#Ouverture du fichier username
+#Recherche du nom d'utilisateur du joueur
 usernameFile = open("username.txt", "rt")
 username=usernameFile.read()
 print(usernameFile.read())
 usernameFile.close()
+
+#Recherche de l'allocution de ram (non fonctionnel car flemme)
+#ramFile = open("ram.txt", "rt")
+#ram=ramFile.read()
+#print(ramFile.read())
+#ramFile.close()
 
 #Données sur l'utilisateur (requis pour le lancement du jeu)
 print("Assemblage des options de lancement java et données du joueur")
@@ -61,7 +60,7 @@ options = {
     "uuid": "pylauchr1"+username,
     #le nom d'utilisateur et l'uuid étant publics, le token est utilisé pour se connecter
     "token": "",
-    #Arguments java
+    #Arguments java (quand j'aurais le temps il faudra que je modifie cette ligne)
     "jvmArguments": ["-Xmx2G", "-Xms2G"]
 }
 
@@ -80,12 +79,11 @@ print("Génération de la commande de lancement du jeu")
 
 minecraft_command = minecraft_launcher_lib.command.get_minecraft_command("1.12.2-forge-14.23.5.2860", minecraft_directory, options)
 
-
-
 print("---Commande de lancement du jeu---")
 print(minecraft_command)
 print("----------------------------------")
 
-#Lancement du jeu
+
+#On lance minecraft (Enfin!!!)
 print("Lancement du jeu")
 subprocess.call(minecraft_command)

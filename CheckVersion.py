@@ -1,15 +1,65 @@
-#-----------------------------------------
-#      Vérification des mises à jour
-#-----------------------------------------
-#Ce programme vérifie que le launcher est à jour
+#===========================================================
+#                ----Vérifications----
+#===========================================================
+#Ici, on vérifie que le client est connecté à internet, puis on cherche les mises à jour
 
+
+
+#---Importation des modules---
+#wget est utilisé pour télécharger des fichiers
 import wget
+
+#ZipFile permet d'extraire des fichiers .zip
 from zipfile import ZipFile
+
 import os
 from tkinter import messagebox
+import sys
 import colorama
 from colorama import Back, Fore, Style
+colorama.init(autoreset=True)
+from colorama import Back, Fore, Style
 
+#requests est utilisé pour vérifier la connexion internet
+import requests
+
+
+#===========================================================
+#      ----Vérification de la connexion internet----
+#===========================================================
+#Ici on vérifie que l'utilisateur est connecté à internet
+
+print(Fore.YELLOW + "Tentative de connexion aux serveurs..." + Fore.RESET)
+
+url = "https://www.google.fr/"
+timeout = 5
+try:
+  request = requests.get(url, timeout=timeout)
+  print(Fore.GREEN + "Client en ligne" + Fore.RESET)
+except (requests.ConnectionError, requests.Timeout) as exception:
+  print(Fore.RED + "Erreur: Le client n'est pas connecté à internet, ou Google est dead\nArrêt du launcher." + Fore.RESET)
+  messagebox.showerror(title="Connxion à internet requise", message="Il semblerait que vous ne soyez pas connecté à internet.\n" + 
+  "Une connexion à internet est requise pour lancer le launcher, vérifiez votre connexion et réessayez.")
+  sys.exit()
+
+#Maintenant on vérifie que le serveur est en ligne
+url = "http://185.171.202.142/minecraft"
+timeout = 5
+try:
+  request = requests.get(url, timeout=timeout)
+  print(Fore.GREEN + "Serveur en ligne!" + Fore.RESET)
+except (requests.ConnectionError, requests.Timeout) as exception:
+  print(Fore.RED + "Erreur: Le serveur est down" + 
+  "\nNote: Vu que le serveur n'est pas disponible, toutes les opérations vont echouer et le launcher ne va fonctionner correctement.\nArret du launcher." + Fore.RESET)
+
+  messagebox.showerror(title="Serveur injoignable", message="Le serveur est injoignable.\n" + 
+  "Peut-être qu'il est en cours de maintenance, ou qu'une mise à jour du launcher est nécéssaire\n" +
+  "Note: Le wifi du lycée bloque l'ip du serveur")
+  sys.exit()
+
+#===========================================================
+#          ----Recherche des mises à jours----
+#===========================================================
 #Version du launcher
 LauncherVersion = "1.0.0"
 

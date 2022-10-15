@@ -1,8 +1,12 @@
-#-----------------------------------------
-#    Téléchargement des mods et assets
-#-----------------------------------------
-#Les mods, et les assets non-essensiel (guis personalisés, touches pré-configurés, etc...)
+#===========================================================
+#      ----Installation des données supplémentaires----
+#===========================================================
+#Ici, on s'occupe de l'installation des mods, des fichiers configs pré-configurés
+#et des interfaces graphiques personalisés.
 
+
+
+#Importation des modules
 import wget
 from zipfile import ZipFile
 import os
@@ -15,7 +19,7 @@ import os
 #            md5h.update(chunk)
 #    return md5h.hexdigest()
 
-#Chemin de l'url
+#Chemin de l'url pour le téléchargement
 url = "http://185.171.202.142/minecraft/pylauncher/Empisurvie/archive.zip"
 
 #Appdata
@@ -24,18 +28,18 @@ appdataDir = os.getenv('APPDATA')
 download_directory = appdataDir + "\PyLaunchr\Downloads"
 minecraft_directory = appdataDir + "\PyLaunchr\Empisurvie"
 
-#Téléchargement
+#Téléchargement des fichiers
 wget.download(url, download_directory)
 
-# spécifiant le nom du fichier zip
+#Chemin d'accès du fichier téléchargé
 file = download_directory + "\\archive.zip"
 
-# ouvrir le fichier zip en mode lecture
+#Extraction du fichier .zip en mode lecture (r=read)
 with ZipFile(file, 'r') as zip: 
-    # afficher tout le contenu du fichier zip
+    #Afficher tout le contenu du .zip dans la console
     zip.printdir()
 
-    # extraire tous les fichiers
+    #Extraire les fichiers
     print('extraction...')
     zip.extractall(minecraft_directory)
     print('Terminé!')
