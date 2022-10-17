@@ -66,6 +66,16 @@ appdataDir = os.getenv('APPDATA')
 minecraft_directory = appdataDir + "\PyLaunchr\Empisurvie"
 print(minecraft_directory)
 
+#On vérifie la présence du répertoire d'installation
+#Si il n'existe pas, on le crée
+
+if os.path.exists(appdataDir + "\PyLaunchr\Empisurvie"):
+  print("Répertoire trouvé")
+else:
+  print("Répertoire absent")
+  initFile = open(appdataDir + "\PyLaunchr\Empisurvie\username.txt", "w")
+  initFile.close()
+
 
 
 #Ici, on cherche le fichier username.txt
