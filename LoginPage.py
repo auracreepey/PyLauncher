@@ -67,14 +67,13 @@ minecraft_directory = appdataDir + "\PyLaunchr\Empisurvie"
 print(minecraft_directory)
 
 #On vérifie la présence du répertoire d'installation
-#Si il n'existe pas, on le crée
+#Si il n'existe pas, on le créé.
 
 if os.path.exists(appdataDir + "\PyLaunchr\Empisurvie"):
-  print("Répertoire trouvé")
+    print(Fore.GREEN + "Répertoire trouvé" + Fore.RESET)
 else:
-  print("Répertoire absent")
-  initFile = open(appdataDir + "\PyLaunchr\Empisurvie\username.txt", "w")
-  initFile.close()
+    print(Fore.YELLOW + "Répertoire absent" + Fore.RESET)
+    os.makedirs(minecraft_directory)
 
 
 
