@@ -79,15 +79,15 @@
   },
   {
    "optionDest": "datas",
-   "value": "C:/Programmation/Github/PyLauncher/version.txt;."
-  },
-  {
-   "optionDest": "datas",
    "value": "C:/Programmation/Github/PyLauncher/images;images/"
   },
   {
    "optionDest": "datas",
    "value": "C:/Programmation/Github/PyLauncher/minecraft_launcher_lib;minecraft_launcher_lib/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Programmation/Github/PyLauncher/ram.txt;."
   }
  ],
  "nonPyinstallerOptions": {

@@ -30,7 +30,7 @@ mcversion = "1.12.2"
 #en vanilla 1.12.2: launch_version_id = "1.12.2"
 launch_version_id = "1.12.2-forge-14.23.5.2860"
 
-#Allocution de ram pour java
+#Allocution de ram par défaut pour java
 ram = "3"
 
 print("Version de minecraft: " + mcversion)
@@ -45,11 +45,11 @@ username=usernameFile.read()
 print(usernameFile.read())
 usernameFile.close()
 
-#Recherche de l'allocution de ram (non fonctionnel car flemme)
-#ramFile = open("ram.txt", "rt")
-#ram=ramFile.read()
-#print(ramFile.read())
-#ramFile.close()
+#Recherche de l'allocution de ram
+ramFile = open("ram.txt", "rt")
+ram=ramFile.read()
+print(ramFile.read())
+ramFile.close()
 
 #Données sur l'utilisateur (requis pour le lancement du jeu)
 print("Assemblage des options de lancement java et données du joueur")

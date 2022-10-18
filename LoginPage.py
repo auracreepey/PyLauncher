@@ -56,11 +56,6 @@ import os
 print(Fore.CYAN + "os OK" + Fore.RESET)
 
 
-#Vérification de la version du launcher
-print(Fore.YELLOW + "Lancement de la recherche des mises à jour..." + Fore.RESET)
-import CheckVersion
-
-
 #Répertoire d'installation des fichiers
 appdataDir = os.getenv('APPDATA')
 minecraft_directory = appdataDir + "\PyLaunchr\Empisurvie"
@@ -68,13 +63,23 @@ print(minecraft_directory)
 
 #On vérifie la présence du répertoire d'installation
 #Si il n'existe pas, on le créé.
-
 if os.path.exists(appdataDir + "\PyLaunchr\Empisurvie"):
     print(Fore.GREEN + "Répertoire trouvé" + Fore.RESET)
 else:
     print(Fore.YELLOW + "Répertoire absent" + Fore.RESET)
     os.makedirs(minecraft_directory)
 
+#Pareil pour le répertoire "Downloads"...
+if os.path.exists(appdataDir + "\PyLaunchr\Downloads"):
+    print(Fore.GREEN + "Répertoire trouvé" + Fore.RESET)
+else:
+    print(Fore.YELLOW + "Répertoire absent" + Fore.RESET)
+    os.makedirs(appdataDir + "\PyLaunchr\Downloads")
+
+
+#Vérification de la version du launcher
+print(Fore.YELLOW + "Lancement de la recherche des mises à jour..." + Fore.RESET)
+import CheckVersion
 
 
 #Ici, on cherche le fichier username.txt
@@ -237,10 +242,12 @@ class LoginPage:
         #Quantité de ram par défaut
         ramvalue.set(3)
 
+        self.ramSpinbox=IntVar()
+
         #Input pour la quantité de ram
-        self.spin = Spinbox(window, from_=2, to=6, width=10, highlightthickness=0, relief=FLAT, bg="#040405", fg="#BFBFBE", textvariable=ramvalue,
-                            font=("yu gothic ui", 12, "bold"))
-        self.spin.place(x=800, y=485)
+        self.ramSpinbox = Spinbox(window, from_=2, to=6, width=10, highlightthickness=0, relief=FLAT, bg="#040405", fg="#BFBFBE", textvariable=ramvalue,
+                            command=self.SetRam, font=("yu gothic ui", 12, "bold"))
+        self.ramSpinbox.place(x=800, y=485)
 
         #Texte au dessus de l'input
         self.password_label = Label(self.lgn_frame, text="Allocution de RAM (En Go)", bg="#040405", fg="#4f4e4d",
@@ -266,7 +273,6 @@ class LoginPage:
 
         self.progressbar = Progressbar(window, length=200)
         self.progressbar.place(x=350, y=645)
-
 
     #----Création d'un compte----
     #Si un compte est déjà existant, il sera remplacé
@@ -317,6 +323,23 @@ class LoginPage:
             print(Fore.RED + "[AuthCreate] Création échoué: Trop ou pas assez de caractères!" + Fore.RESET)
             messagebox.showerror(title="Error", message="Votre identifiant est trop court/long!")
 
+    def SetRam(self):
+        self.ramSet = self.ramSpinbox.get()
+        
+        if os.path.exists("ram.txt"):
+            print(Fore.GREEN + "[RamCheck] Fichier ram.txt trouvé" + Fore.RESET)
+        else:
+            print(Fore.YELLOW + "[RamCheck] Fichier ram.txt absent, création..." + Fore.RESET)
+            self.ramFile = open("ram.txt", "w")
+            self.ramFile.close()
+        
+        self.ramFile = open("ram.txt", "w")
+        self.ramFile.write(str(self.ramSet))
+        self.ramFile.close()
+
+        print("--ram--")
+        print(self.ramSet)
+        print("-------")
 
 
 
@@ -439,8 +462,7 @@ class LoginPage:
 
         if __name__ == "__main__":
             main()
-
-
+        
     def game(self):
         #Vérification mods
         if os.path.exists(appdataDir + "\PyLaunchr\Downloads\mods.zip"):
@@ -448,6 +470,7 @@ class LoginPage:
         else:
             print(Fore.YELLOW + "[ModsInstaller] Mods absents" + Fore.RESET)
             import DownloadMods
+            
         #Lancement du jeu
         import LaunchForge
 
