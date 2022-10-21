@@ -3,6 +3,5 @@
 
  Todo :
 
--Ajouter la quantité de ram adaptative
 -Améliorer le système de mise à jour
 -Mettre un anti-cheat ?
