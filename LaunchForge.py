@@ -3,6 +3,12 @@
 #===========================================================
 
 
+#Activation des logs
+import logging
+logging.basicConfig(level=logging.DEBUG,
+                    filename="launcher.log",
+                    filemode="a",
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 #Importation des modules
 import minecraft_launcher_lib
@@ -33,11 +39,11 @@ launch_version_id = "1.12.2-forge-14.23.5.2860"
 #Allocution de ram par défaut pour java
 ram = "3"
 
-print("Version de minecraft: " + mcversion)
+logging.info("Version de minecraft: " + mcversion)
 
 
 
-print("Préparation du lancement du jeu")
+logging.info("Préparation du lancement du jeu")
 
 #Recherche du nom d'utilisateur du joueur
 usernameFile = open("username.txt", "rt")
@@ -48,11 +54,12 @@ usernameFile.close()
 #Recherche de l'allocution de ram
 ramFile = open("ram.txt", "rt")
 ram=ramFile.read()
-print(ramFile.read())
+logging.info("Ram:")
+logging.info(ramFile.read())
 ramFile.close()
 
 #Données sur l'utilisateur (requis pour le lancement du jeu)
-print("Assemblage des options de lancement java et données du joueur")
+logging.info("Assemblage des options de lancement java et données du joueur")
 options = { 
     #nom d'utilisateur
     "username": username,
@@ -68,22 +75,25 @@ options = {
 #On cherche l'id de la version car forge modifie l'id de la version
 #L'id de la version est affiché ici à titre indicatif, il faut la copier manuellement à la ligne 18
 #Il devrait y avoir un moyen de faire ça automatiquement, mais j'ai un peu la flemme x)
-print("Recherche de l'id de version...")
-print("PS: Voir l'id de version pour jouer en modée")
+logging.info("Recherche de l'id de version...")
+logging.info("PS: Voir l'id de version pour jouer en modée")
 version_id = minecraft_launcher_lib.utils.get_installed_versions(minecraft_directory)
-print("ID DE VERSION")
-print(version_id)
+logging.info("ID DE VERSION:")
+logging.info(version_id)
 
 #Commande de lancement du jeu
-print("Génération de la commande de lancement du jeu")
+logging.info("Génération de la commande de lancement du jeu")
 
 minecraft_command = minecraft_launcher_lib.command.get_minecraft_command("1.12.2-forge-14.23.5.2860", minecraft_directory, options)
 
-print("---Commande de lancement du jeu---")
-print(minecraft_command)
-print("----------------------------------")
+logging.info("---Commande de lancement du jeu---")
+logging.info(minecraft_command)
+logging.info("----------------------------------")
 
 
 #On lance minecraft (Enfin!!!)
-print("Lancement du jeu")
+logging.info("Lancement du jeu...")
+print("Lancement du jeu...")
+print(" ")
+print("-----------Console-----------")
 subprocess.call(minecraft_command)

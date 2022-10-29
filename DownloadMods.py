@@ -5,11 +5,18 @@
 #et des interfaces graphiques personalisés.
 
 
+#Activation des logs
+import logging
+logging.basicConfig(level=logging.DEBUG,
+                    filename="launcher.log",
+                    filemode="a",
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 #Importation des modules
 import wget
 from zipfile import ZipFile
 import os
+import logging
 
 #import hashlib
 #def md5(file1):
@@ -26,9 +33,10 @@ url = "http://185.171.202.142/minecraft/pylauncher/Empisurvie/archive.zip"
 appdataDir = os.getenv('APPDATA')
 #Répertoires d'installation et d'extraction
 download_directory = appdataDir + "\PyLaunchr\Downloads"
-minecraft_directory = appdataDir + "\PyLaunchr\Empisurvie"
+destination_directory = appdataDir + "\PyLaunchr"
 
 #Téléchargement des fichiers
+print("Téléchargement des ressources...")
 wget.download(url, download_directory)
 
 #Chemin d'accès du fichier téléchargé
@@ -37,11 +45,11 @@ file = download_directory + "\\archive.zip"
 #Extraction du fichier .zip en mode lecture (r=read)
 with ZipFile(file, 'r') as zip: 
     #Afficher tout le contenu du .zip dans la console
-    zip.printdir()
+    zip.logging.infodir()
 
     #Extraire les fichiers
-    print('extraction...')
-    zip.extractall(minecraft_directory)
-    print('Terminé!')
+    logging.info('extraction...')
+    zip.extractall(destination_directory)
+    logging.info('Terminé!')
 
 

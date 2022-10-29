@@ -1,0 +1,612 @@
+[18:55:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:55:41] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:55:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:55:41] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[18:55:41] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[18:55:41] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 8.1:amd64:6.3, installed at C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\runtime\jre-legacy\windows-x64\jre-legacy
+[18:55:41] [main/DEBUG] [FML]: Java classpath at launch is:
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2860\forge-1.12.2-14.23.5.2860.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\ow2\asm\asm-debug-all\5.2\asm-debug-all-5.2.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2_mc\scala-continuations-library_2.11-1.0.2_mc.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2_mc\scala-continuations-plugin_2.11.1-1.0.2_mc.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\mojang\patchy\1.3.9\patchy-1.3.9.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+[18:55:41] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries\com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\versions\1.12.2-forge-14.23.5.2860\1.12.2-forge-14.23.5.2860.jar
+[18:55:42] [main/DEBUG] [FML]: Java library path at launch is:
+[18:55:42] [main/DEBUG] [FML]:     C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\versions\1.12.2-forge-14.23.5.2860\natives
+[18:55:42] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\libraries
+[18:55:42] [main/DEBUG] [FML]: Cleaning up mods folder: C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods
+[18:55:42] [main/DEBUG] [FML]: Examining file: aquaacrobatics-1.14.4.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: auudio-1.0.3.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: betternether-0.1.8.6.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: BetterQuesting-3.5.329.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: biomesoplenty-7.0.1.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: birdOnAWire.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: BQTweaker-1.3.3.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: chunkpregenerator-2.5.0.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: conarm-1.12.2-1.2.5.10.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: CraftTweaker2-1.12-4.1.20.680.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: davincisvessels-1.12-6.340-full.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: falling_tree-2.4.0.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: fancymenu-2.12.0.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: foamfix-0.10.15-1.12.2.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: forgelin-1.8.3.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: ftblib-5.4.7.2.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: ftbquests-1202.9.0.15.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: ftbutilities-5.4.1.131.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: futuremc-0.2.11.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: gvc-1.3.0.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: ImmersiveEngineering-0.12-98.jar
+[18:55:42] [main/DEBUG] [FML]: Found existing ContainedDep META-INF/libraries/ImmersiveEngineering-0.12-98-core.jar(blusunrize:ImmersiveEngineering-core:0.12-98) from C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\memory_repo\blusunrize\ImmersiveEngineering-core\0.12-98\ImmersiveEngineering-core-0.12-98.jar extracted to C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\ImmersiveEngineering-0.12-98.jar, skipping extraction
+[18:55:42] [main/DEBUG] [FML]: Examining file: ImmersiveEngineering-core-0.12-98.jar
+[18:55:42] [main/DEBUG] [FML]: Making maven link for blusunrize:ImmersiveEngineering:0.12-98 in memory to C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\ImmersiveEngineering-0.12-98.jar.
+[18:55:42] [main/DEBUG] [FML]: Examining file: immersivepetroleum-1.12.2-1.1.10.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: itemfilters-1.0.4.2.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: IvToolkit-1.3.3-1.12.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: jei-4.16.1.301.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: journeymap-1.12.2-5.7.1.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: konkrete-1.5.0.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: konkrete_forge_1.5.3_MC_1.12-1.12.2.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: libraryex-1.2.2.jar
+[18:55:42] [main/DEBUG] [FML]: Found existing ContainedDep META-INF/libraries/night-config-core-3.6.0.jar(com.electronwill.night-config:core:3.6.0) from C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\memory_repo\com\electronwill\night-config\core\3.6.0\core-3.6.0.jar extracted to C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\libraryex-1.2.2.jar, skipping extraction
+[18:55:42] [main/DEBUG] [FML]: Examining file: core-3.6.0.jar
+[18:55:42] [main/DEBUG] [FML]: Found existing ContainedDep META-INF/libraries/night-config-json-3.6.0.jar(com.electronwill.night-config:json:3.6.0) from C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\memory_repo\com\electronwill\night-config\json\3.6.0\json-3.6.0.jar extracted to C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\libraryex-1.2.2.jar, skipping extraction
+[18:55:42] [main/DEBUG] [FML]: Examining file: json-3.6.0.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: loadmyresources-1.0.1.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: mantle-1.3.3.55.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: minecolonies-1.12.2-0.11.841-ALPHA.jar
+[18:55:42] [main/DEBUG] [FML]: Found existing ContainedDep META-INF/libraries/structurize-1.12.2-0.10.277-RELEASE.jar(com.ldtteam:structurize:1.12.2-0.10.277-RELEASE) from C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\memory_repo\com\ldtteam\structurize\1.12.2-0.10.277-RELEASE\structurize-1.12.2-0.10.277-RELEASE.jar extracted to C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\minecolonies-1.12.2-0.11.841-ALPHA.jar, skipping extraction
+[18:55:42] [main/DEBUG] [FML]: Examining file: structurize-1.12.2-0.10.277-RELEASE.jar
+[18:55:42] [main/DEBUG] [FML]: Found existing ContainDep extracted to C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\1.12.2\MathParser.org-mXparser-4.0.0.jar, skipping extraction
+[18:55:42] [main/DEBUG] [FML]: Making maven link for com.minecolonies:minecolonies:1.12.2-0.11.841-ALPHA:universal in memory to C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\minecolonies-1.12.2-0.11.841-ALPHA.jar.
+[18:55:42] [main/DEBUG] [FML]: Examining file: MovingWorld-1.12-6.353.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: netherex-2.2.5.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: obfuscate-0.4.2-1.12.2.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: optifine-1.12.2_HD_U_G5.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: oxygen_core-0.11.4.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: oxygen_dailyrewards-0.11.2.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: oxygen_groups-0.11.2.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: oxygen_mail-0.11.2.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: oxygen_market-0.11.2.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: oxygen_menu-0.11.1.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: oxygen_merchants-0.11.1.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: oxygen_playerslist-0.11.1.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: oxygen_teleportation-0.11.1.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: performant-1.11.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: reccomplex-1.4.8.2.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: RFExpansion-3.4.31.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: roguelike-1.12.2-1.8.0.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: simplelogin-1.2.4-beta+build127.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: spark-1.6.3.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: StandardExpansion-3.4.173.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: structurize-1.12.2-0.10.277-RELEASE.jar
+[18:55:42] [main/DEBUG] [FML]: Found existing ContainDep extracted to C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\1.12.2\MathParser.org-mXparser-4.0.0.jar, skipping extraction
+[18:55:42] [main/DEBUG] [FML]: Making maven link for com.ldtteam:structurize:1.12.2-0.10.277-RELEASE in memory to C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\structurize-1.12.2-0.10.277-RELEASE.jar.
+[18:55:42] [main/DEBUG] [FML]: Examining file: surge-2.0.77.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: tconstruct-1.12.2-2.13.0.183.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: tinkersjei-1.2.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: tombstone-4.5.7.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: vehicle-0.44.1.jar
+[18:55:42] [main/DEBUG] [FML]: Examining file: _mixinbootstrap-1.1.0.jar
+[18:55:42] [main/DEBUG] [FML]: Cleaning up mods folder: C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\1.12.2
+[18:55:42] [main/DEBUG] [FML]: Examining file: MathParser.org-mXparser-4.0.0.jar
+[18:55:42] [main/DEBUG] [FML]: File already proccessed C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\memory_repo\blusunrize\ImmersiveEngineering-core\0.12-98\ImmersiveEngineering-core-0.12-98.jar, Skipping
+[18:55:42] [main/DEBUG] [FML]: File already proccessed C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\ImmersiveEngineering-0.12-98.jar, Skipping
+[18:55:42] [main/DEBUG] [FML]: File already proccessed C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\memory_repo\com\electronwill\night-config\core\3.6.0\core-3.6.0.jar, Skipping
+[18:55:42] [main/DEBUG] [FML]: File already proccessed C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\memory_repo\com\electronwill\night-config\json\3.6.0\json-3.6.0.jar, Skipping
+[18:55:42] [main/DEBUG] [FML]: File already proccessed C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\structurize-1.12.2-0.10.277-RELEASE.jar, Skipping
+[18:55:42] [main/DEBUG] [FML]: File already proccessed C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\minecolonies-1.12.2-0.11.841-ALPHA.jar, Skipping
+[18:55:42] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[18:55:42] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[18:55:42] [main/DEBUG] [FML]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
+[18:55:42] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:55:42] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[18:55:42] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[18:55:42] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[18:55:42] [main/DEBUG] [FML]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
+[18:55:42] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:55:42] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[18:55:42] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[18:55:42] [main/DEBUG] [FML]: Discovering coremods
+[18:55:42] [main/INFO] [FML]: Searching C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods for mods
+[18:55:42] [main/DEBUG] [FML]:   Adding aquaacrobatics-1.14.4.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding auudio-1.0.3.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding betternether-0.1.8.6.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding BetterQuesting-3.5.329.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding biomesoplenty-7.0.1.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding birdOnAWire.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding BQTweaker-1.3.3.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding chunkpregenerator-2.5.0.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding conarm-1.12.2-1.2.5.10.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding CraftTweaker2-1.12-4.1.20.680.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding davincisvessels-1.12-6.340-full.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding falling_tree-2.4.0.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding fancymenu-2.12.0.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding foamfix-0.10.15-1.12.2.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding forgelin-1.8.3.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding ftblib-5.4.7.2.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding ftbquests-1202.9.0.15.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding ftbutilities-5.4.1.131.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding futuremc-0.2.11.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding gvc-1.3.0.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding ImmersiveEngineering-0.12-98.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding immersivepetroleum-1.12.2-1.1.10.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding itemfilters-1.0.4.2.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding IvToolkit-1.3.3-1.12.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding jei-4.16.1.301.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding journeymap-1.12.2-5.7.1.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding konkrete-1.5.0.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding konkrete_forge_1.5.3_MC_1.12-1.12.2.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding libraryex-1.2.2.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding loadmyresources-1.0.1.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding mantle-1.3.3.55.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding minecolonies-1.12.2-0.11.841-ALPHA.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding MovingWorld-1.12-6.353.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding netherex-2.2.5.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding obfuscate-0.4.2-1.12.2.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding optifine-1.12.2_HD_U_G5.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding oxygen_core-0.11.4.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding oxygen_dailyrewards-0.11.2.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding oxygen_groups-0.11.2.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding oxygen_mail-0.11.2.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding oxygen_market-0.11.2.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding oxygen_menu-0.11.1.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding oxygen_merchants-0.11.1.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding oxygen_playerslist-0.11.1.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding oxygen_teleportation-0.11.1.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding performant-1.11.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding reccomplex-1.4.8.2.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding RFExpansion-3.4.31.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding roguelike-1.12.2-1.8.0.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding simplelogin-1.2.4-beta+build127.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding spark-1.6.3.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding StandardExpansion-3.4.173.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding structurize-1.12.2-0.10.277-RELEASE.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding surge-2.0.77.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding tconstruct-1.12.2-2.13.0.183.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding tinkersjei-1.2.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding tombstone-4.5.7.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding vehicle-0.44.1.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]:   Adding _mixinbootstrap-1.1.0.jar to the mod list
+[18:55:42] [main/INFO] [FML]: Searching C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\1.12.2 for mods
+[18:55:42] [main/DEBUG] [FML]:   Adding MathParser.org-mXparser-4.0.0.jar to the mod list
+[18:55:42] [main/DEBUG] [FML]: Examining for coremod candidacy _mixinbootstrap-1.1.0.jar
+[18:55:43] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from _mixinbootstrap-1.1.0.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy aquaacrobatics-1.14.4.jar
+[18:55:43] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in aquaacrobatics-1.14.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:55:43] [main/DEBUG] [FML]: Instantiating coremod class AquaAcrobaticsCore
+[18:55:43] [main/TRACE] [FML]: coremod named Aqua Acrobatics Transformer is loading
+[18:55:43] [main/DEBUG] [FML]: The coremod com.fuzs.aquaacrobatics.core.AquaAcrobaticsCore requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[18:55:43] [main/WARN] [FML]: The coremod Aqua Acrobatics Transformer (com.fuzs.aquaacrobatics.core.AquaAcrobaticsCore) is not signed!
+[18:55:43] [main/DEBUG] [FML]: Enqueued coremod Aqua Acrobatics Transformer
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy auudio-1.0.3.jar
+[18:55:43] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from auudio-1.0.3.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy betternether-0.1.8.6.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in betternether-0.1.8.6.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy BetterQuesting-3.5.329.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in BetterQuesting-3.5.329.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy biomesoplenty-7.0.1.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in biomesoplenty-7.0.1.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy birdOnAWire.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in birdOnAWire.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy BQTweaker-1.3.3.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in BQTweaker-1.3.3.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy chunkpregenerator-2.5.0.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in chunkpregenerator-2.5.0.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy conarm-1.12.2-1.2.5.10.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in conarm-1.12.2-1.2.5.10.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy CraftTweaker2-1.12-4.1.20.680.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in CraftTweaker2-1.12-4.1.20.680.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy davincisvessels-1.12-6.340-full.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in davincisvessels-1.12-6.340-full.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy falling_tree-2.4.0.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in falling_tree-2.4.0.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy fancymenu-2.12.0.jar
+[18:55:43] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from fancymenu-2.12.0.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar
+[18:55:43] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy foamfix-0.10.15-1.12.2.jar
+[18:55:43] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in foamfix-0.10.15-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:55:43] [main/DEBUG] [FML]: Instantiating coremod class FoamFixCore
+[18:55:43] [main/TRACE] [FML]: coremod named Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) is loading
+[18:55:43] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:55:43] [main/WARN] [FML]: The coremod Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (pl.asie.foamfix.coremod.FoamFixCore) is not signed!
+[18:55:43] [main/DEBUG] [FML]: Added access transformer class pl.asie.foamfix.coremod.FoamFixAT to enqueued access transformers
+[18:55:43] [main/DEBUG] [FML]: Enqueued coremod Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.)
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy forgelin-1.8.3.jar
+[18:55:43] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in forgelin-1.8.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:55:43] [main/DEBUG] [FML]: Instantiating coremod class ForgelinPlugin
+[18:55:43] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:55:43] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[18:55:43] [main/DEBUG] [FML]: Enqueued coremod ForgelinPlugin
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy ftblib-5.4.7.2.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in ftblib-5.4.7.2.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy ftbquests-1202.9.0.15.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in ftbquests-1202.9.0.15.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy ftbutilities-5.4.1.131.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in ftbutilities-5.4.1.131.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy futuremc-0.2.11.jar
+[18:55:43] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in futuremc-0.2.11.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:55:43] [main/DEBUG] [FML]: Instantiating coremod class CoreLoader
+[18:55:43] [main/TRACE] [FML]: coremod named FutureMC is loading
+[18:55:43] [main/DEBUG] [FML]: The coremod thedarkcolour.futuremc.asm.CoreLoader requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[18:55:43] [main/WARN] [FML]: The coremod FutureMC (thedarkcolour.futuremc.asm.CoreLoader) is not signed!
+[18:55:43] [main/DEBUG] [FML]: Enqueued coremod FutureMC
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy gvc-1.3.0.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in gvc-1.3.0.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy immersivepetroleum-1.12.2-1.1.10.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in immersivepetroleum-1.12.2-1.1.10.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy itemfilters-1.0.4.2.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in itemfilters-1.0.4.2.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy IvToolkit-1.3.3-1.12.jar
+[18:55:43] [main/TRACE] [FML]: Adding IvToolkit-1.3.3-1.12.jar to the list of known coremods, it will not be examined again
+[18:55:43] [main/DEBUG] [FML]: Instantiating coremod class IvToolkitLoadingPlugin
+[18:55:43] [main/TRACE] [FML]: coremod named IvToolkit is loading
+[18:55:43] [main/WARN] [FML]: The coremod ivorius.ivtoolkit.IvToolkitLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:55:43] [main/WARN] [FML]: The coremod IvToolkit (ivorius.ivtoolkit.IvToolkitLoadingPlugin) is not signed!
+[18:55:43] [main/DEBUG] [FML]: Enqueued coremod IvToolkit
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy jei-4.16.1.301.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in jei-4.16.1.301.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy journeymap-1.12.2-5.7.1.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in journeymap-1.12.2-5.7.1.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy konkrete-1.5.0.jar
+[18:55:43] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from konkrete-1.5.0.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy konkrete_forge_1.5.3_MC_1.12-1.12.2.jar
+[18:55:43] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from konkrete_forge_1.5.3_MC_1.12-1.12.2.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy libraryex-1.2.2.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in libraryex-1.2.2.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy loadmyresources-1.0.1.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in loadmyresources-1.0.1.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy mantle-1.3.3.55.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in mantle-1.3.3.55.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy MathParser.org-mXparser-4.0.0.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in MathParser.org-mXparser-4.0.0.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy MovingWorld-1.12-6.353.jar
+[18:55:43] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from MovingWorld-1.12-6.353.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy netherex-2.2.5.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in netherex-2.2.5.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy obfuscate-0.4.2-1.12.2.jar
+[18:55:43] [main/TRACE] [FML]: Adding obfuscate-0.4.2-1.12.2.jar to the list of known coremods, it will not be examined again
+[18:55:43] [main/DEBUG] [FML]: Instantiating coremod class ObfuscatePlugin
+[18:55:43] [main/DEBUG] [FML]: The coremod com.mrcrayfish.obfuscate.asm.ObfuscatePlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[18:55:43] [main/WARN] [FML]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
+[18:55:43] [main/DEBUG] [FML]: Enqueued coremod ObfuscatePlugin
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy optifine-1.12.2_HD_U_G5.jar
+[18:55:43] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from optifine-1.12.2_HD_U_G5.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy oxygen_core-0.11.4.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in oxygen_core-0.11.4.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy oxygen_dailyrewards-0.11.2.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in oxygen_dailyrewards-0.11.2.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy oxygen_groups-0.11.2.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in oxygen_groups-0.11.2.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy oxygen_mail-0.11.2.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in oxygen_mail-0.11.2.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy oxygen_market-0.11.2.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in oxygen_market-0.11.2.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy oxygen_menu-0.11.1.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in oxygen_menu-0.11.1.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy oxygen_merchants-0.11.1.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in oxygen_merchants-0.11.1.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy oxygen_playerslist-0.11.1.jar
+[18:55:43] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in oxygen_playerslist-0.11.1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:55:43] [main/DEBUG] [FML]: Instantiating coremod class PlayersListCorePlugin
+[18:55:43] [main/TRACE] [FML]: coremod named Players List Core Plugin is loading
+[18:55:43] [main/DEBUG] [FML]: The coremod austeretony.oxygen_playerslist.common.core.PlayersListCorePlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[18:55:43] [main/DEBUG] [FML]: Found signing certificates for coremod Players List Core Plugin (austeretony.oxygen_playerslist.common.core.PlayersListCorePlugin)
+[18:55:43] [main/DEBUG] [FML]: Found certificate bd38448c93e077d9ef82cf9509ae67b404862367
+[18:55:43] [main/DEBUG] [FML]: Enqueued coremod Players List Core Plugin
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy oxygen_teleportation-0.11.1.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in oxygen_teleportation-0.11.1.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy performant-1.11.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in performant-1.11.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy reccomplex-1.4.8.2.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in reccomplex-1.4.8.2.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy RFExpansion-3.4.31.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in RFExpansion-3.4.31.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy roguelike-1.12.2-1.8.0.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in roguelike-1.12.2-1.8.0.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy simplelogin-1.2.4-beta+build127.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in simplelogin-1.2.4-beta+build127.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy spark-1.6.3.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in spark-1.6.3.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy StandardExpansion-3.4.173.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in StandardExpansion-3.4.173.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy surge-2.0.77.jar
+[18:55:43] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from surge-2.0.77.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy tconstruct-1.12.2-2.13.0.183.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in tconstruct-1.12.2-2.13.0.183.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy tinkersjei-1.2.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in tinkersjei-1.2.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy tombstone-4.5.7.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in tombstone-4.5.7.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy vehicle-0.44.1.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in vehicle-0.44.1.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy ImmersiveEngineering-core-0.12-98.jar
+[18:55:43] [main/TRACE] [FML]: Adding ImmersiveEngineering-core-0.12-98.jar to the list of known coremods, it will not be examined again
+[18:55:43] [main/DEBUG] [FML]: Instantiating coremod class IELoadingPlugin
+[18:55:43] [main/WARN] [FML]: The coremod blusunrize.immersiveengineering.common.asm.IELoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:55:43] [main/WARN] [FML]: The coremod IELoadingPlugin (blusunrize.immersiveengineering.common.asm.IELoadingPlugin) is not signed!
+[18:55:43] [main/DEBUG] [FML]: Enqueued coremod IELoadingPlugin
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy ImmersiveEngineering-0.12-98.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in ImmersiveEngineering-0.12-98.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy core-3.6.0.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in core-3.6.0.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy json-3.6.0.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in json-3.6.0.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy structurize-1.12.2-0.10.277-RELEASE.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in structurize-1.12.2-0.10.277-RELEASE.jar
+[18:55:43] [main/DEBUG] [FML]: Examining for coremod candidacy minecolonies-1.12.2-0.11.841-ALPHA.jar
+[18:55:43] [main/DEBUG] [FML]: Not found coremod data in minecolonies-1.12.2-0.11.841-ALPHA.jar
+[18:55:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:55:43] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[18:55:43] [main/DEBUG] [mixin]: Mixin bootstrap service org.spongepowered.asm.service.modlauncher.MixinServiceModLauncherBootstrap is not available: ModLauncher is not available
+[18:55:43] [main/DEBUG] [mixin]: MixinService [LaunchWrapper] was successfully booted in sun.misc.Launcher$AppClassLoader@42a57993
+[18:55:43] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/_mixinbootstrap-1.1.0.jar Service=LaunchWrapper Env=CLIENT
+[18:55:44] [main/DEBUG] [mixin]: Error cleaning class output directory: .mixin.out
+[18:55:44] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #1
+[18:55:44] [main/DEBUG] [mixin]: Initialising Mixin Platform Manager
+[18:55:44] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/_mixinbootstrap-1.1.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/_mixinbootstrap-1.1.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy rejected container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/_mixinbootstrap-1.1.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/_mixinbootstrap-1.1.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/_mixinbootstrap-1.1.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/_mixinbootstrap-1.1.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/_mixinbootstrap-1.1.0.jar)
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/mojang/patchy/1.3.9/patchy-1.3.9.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/google/guava/guava/21.0/guava-21.0.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/mojang/realms/1.10.22/realms-1.10.22.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Lo%c3%afc/AppData/Roaming/PyLaunchr/Empisurvie/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/_mixinbootstrap-1.1.0.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/aquaacrobatics-1.14.4.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/auudio-1.0.3.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu-2.12.0.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/foamfix-0.10.15-1.12.2.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/forgelin-1.8.3.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/futuremc-0.2.11.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/IvToolkit-1.3.3-1.12.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete-1.5.0.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete_forge_1.5.3_MC_1.12-1.12.2.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/MovingWorld-1.12-6.353.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/obfuscate-0.4.2-1.12.2.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/optifine-1.12.2_HD_U_G5.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/oxygen_playerslist-0.11.1.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/surge-2.0.77.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar for mixin tweaker
+[18:55:44] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/_mixinbootstrap-1.1.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/auudio-1.0.3.jar)
+[18:55:44] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/auudio-1.0.3.jar)
+[18:55:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/auudio-1.0.3.jar)
+[18:55:44] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy rejected container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/auudio-1.0.3.jar)
+[18:55:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/auudio-1.0.3.jar)
+[18:55:44] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/auudio-1.0.3.jar)
+[18:55:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/auudio-1.0.3.jar)
+[18:55:44] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/auudio-1.0.3.jar)
+[18:55:44] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu-2.12.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu-2.12.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu-2.12.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for fancymenu-2.12.0.jar, attempting force-load
+[18:55:44] [main/DEBUG] [mixin]: Adding fancymenu-2.12.0.jar to reparseable coremod collection
+[18:55:44] [main/DEBUG] [mixin]: fancymenu-2.12.0.jar has core plugin de.keksuccino.fancymenu.core.FMCore. Injecting it into FML for co-initialisation:
+[18:55:44] [main/DEBUG] [FML]: Instantiating coremod class FMCore
+[18:55:44] [main/WARN] [FML]: The coremod de.keksuccino.fancymenu.core.FMCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:55:44] [main/WARN] [FML]: The coremod FMCore (de.keksuccino.fancymenu.core.FMCore) is not signed!
+[18:55:44] [main/DEBUG] [FML]: Enqueued coremod FMCore
+[18:55:44] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy accepted container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu-2.12.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu-2.12.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu-2.12.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu-2.12.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu-2.12.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar)
+[18:55:44] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar)
+[18:55:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar)
+[18:55:44] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar, attempting force-load
+[18:55:44] [main/DEBUG] [mixin]: Adding fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar to reparseable coremod collection
+[18:55:44] [main/DEBUG] [mixin]: fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar has core plugin de.keksuccino.fancymenu.core.FMCore. Skipping because it was already injected.
+[18:55:44] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy rejected container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar)
+[18:55:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar)
+[18:55:44] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar)
+[18:55:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar)
+[18:55:44] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/fancymenu_forge_2.12.6_MC_1.12-1.12.2.jar)
+[18:55:44] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete-1.5.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete-1.5.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete-1.5.0.jar)
+[18:55:44] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for konkrete-1.5.0.jar, attempting force-load
+[18:55:44] [main/DEBUG] [mixin]: Adding konkrete-1.5.0.jar to reparseable coremod collection
+[18:55:44] [main/DEBUG] [mixin]: konkrete-1.5.0.jar has core plugin de.keksuccino.konkrete.core.KonkreteCore. Injecting it into FML for co-initialisation:
+[18:55:44] [main/DEBUG] [FML]: Instantiating coremod class KonkreteCore
+[18:55:44] [main/WARN] [FML]: The coremod de.keksuccino.konkrete.core.KonkreteCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:55:44] [main/WARN] [FML]: The coremod KonkreteCore (de.keksuccino.konkrete.core.KonkreteCore) is not signed!
+[18:55:44] [main/INFO] [de.keksuccino.konkrete.core.KonkreteCore]: [KONKRETE] LOADING CORE PLUGIN!
+[18:55:44] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[PREINIT]
+[18:55:44] [main/INFO] [STDOUT]: [de.keksuccino.konkrete.core.MixinConfigLoader:loadConfigs:29]: [KONKRETE] Loading Mixin Config: fancymenu.general.mixin.json
+[18:55:44] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[18:55:44] [main/INFO] [STDOUT]: [de.keksuccino.konkrete.core.MixinConfigLoader:loadConfigs:29]: [KONKRETE] Loading Mixin Config: fancymenu.general.mixin.json
+[18:55:45] [main/DEBUG] [FML]: Enqueued coremod KonkreteCore
+[18:55:45] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy accepted container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete-1.5.0.jar)
+[18:55:45] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete-1.5.0.jar)
+[18:55:45] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete-1.5.0.jar)
+[18:55:45] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete-1.5.0.jar)
+[18:55:45] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete-1.5.0.jar)
+[18:55:45] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete_forge_1.5.3_MC_1.12-1.12.2.jar)
+[18:55:45] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete_forge_1.5.3_MC_1.12-1.12.2.jar)
+[18:55:45] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete_forge_1.5.3_MC_1.12-1.12.2.jar)
+[18:55:45] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for konkrete_forge_1.5.3_MC_1.12-1.12.2.jar, attempting force-load
+[18:55:45] [main/DEBUG] [mixin]: Adding konkrete_forge_1.5.3_MC_1.12-1.12.2.jar to reparseable coremod collection
+[18:55:45] [main/DEBUG] [mixin]: konkrete_forge_1.5.3_MC_1.12-1.12.2.jar has core plugin de.keksuccino.konkrete.core.KonkreteCore. Skipping because it was already injected.
+[18:55:45] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy rejected container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete_forge_1.5.3_MC_1.12-1.12.2.jar)
+[18:55:45] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete_forge_1.5.3_MC_1.12-1.12.2.jar)
+[18:55:45] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete_forge_1.5.3_MC_1.12-1.12.2.jar)
+[18:55:45] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete_forge_1.5.3_MC_1.12-1.12.2.jar)
+[18:55:45] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/konkrete_forge_1.5.3_MC_1.12-1.12.2.jar)
+[18:55:45] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/MovingWorld-1.12-6.353.jar)
+[18:55:45] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/MovingWorld-1.12-6.353.jar)
+[18:55:45] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/MovingWorld-1.12-6.353.jar)
+[18:55:45] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for MovingWorld-1.12-6.353.jar, attempting force-load
+[18:55:45] [main/DEBUG] [mixin]: Adding MovingWorld-1.12-6.353.jar to reparseable coremod collection
+[18:55:45] [main/DEBUG] [mixin]: MovingWorld-1.12-6.353.jar has core plugin com.elytradev.movingworld.common.asm.coremod.MovingWorldCoreMod. Injecting it into FML for co-initialisation:
+[18:55:45] [main/DEBUG] [FML]: Instantiating coremod class MovingWorldCoreMod
+[18:55:45] [main/TRACE] [FML]: coremod named MovingWorldCore is loading
+[18:55:45] [main/WARN] [FML]: The coremod com.elytradev.movingworld.common.asm.coremod.MovingWorldCoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:55:45] [main/WARN] [FML]: The coremod MovingWorldCore (com.elytradev.movingworld.common.asm.coremod.MovingWorldCoreMod) is not signed!
+[18:55:45] [main/ERROR] [mixin]: Mixin config mixins.movingworld.json does not specify "minVersion" property
+[18:55:45] [main/DEBUG] [FML]: Enqueued coremod MovingWorldCore
+[18:55:45] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy accepted container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/MovingWorld-1.12-6.353.jar)
+[18:55:45] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/MovingWorld-1.12-6.353.jar)
+[18:55:45] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/MovingWorld-1.12-6.353.jar)
+[18:55:45] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/MovingWorld-1.12-6.353.jar)
+[18:55:45] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/MovingWorld-1.12-6.353.jar)
+[18:55:45] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/surge-2.0.77.jar)
+[18:55:45] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/surge-2.0.77.jar)
+[18:55:45] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/surge-2.0.77.jar)
+[18:55:45] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for surge-2.0.77.jar, attempting force-load
+[18:55:45] [main/DEBUG] [mixin]: Adding surge-2.0.77.jar to reparseable coremod collection
+[18:55:45] [main/DEBUG] [mixin]: surge-2.0.77.jar has core plugin net.darkhax.surge.core.SurgeLoadingPlugin. Injecting it into FML for co-initialisation:
+[18:55:45] [main/DEBUG] [FML]: Instantiating coremod class SurgeLoadingPlugin
+[18:55:45] [main/DEBUG] [FML]: The coremod net.darkhax.surge.core.SurgeLoadingPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[18:55:45] [main/DEBUG] [FML]: Found signing certificates for coremod SurgeLoadingPlugin (net.darkhax.surge.core.SurgeLoadingPlugin)
+[18:55:45] [main/DEBUG] [FML]: Found certificate d476d1b22b218a10d845928d1665d45fce301b27
+[18:55:45] [main/DEBUG] [FML]: Enqueued coremod SurgeLoadingPlugin
+[18:55:45] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy accepted container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/surge-2.0.77.jar)
+[18:55:45] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/surge-2.0.77.jar)
+[18:55:45] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/surge-2.0.77.jar)
+[18:55:45] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/surge-2.0.77.jar)
+[18:55:45] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/BRETAUDEAU%20Loïc/AppData/Roaming/PyLaunchr/Empisurvie/mods/surge-2.0.77.jar)
+[18:55:45] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[18:55:45] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[18:55:45] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[18:55:45] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[18:55:45] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[18:55:45] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[18:55:45] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[18:55:45] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[18:55:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:55:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:55:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:55:45] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[18:55:45] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[18:55:45] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[18:55:45] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[18:55:45] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: C:\Users\BRETAUDEAU Loïc\AppData\Roaming\PyLaunchr\Empisurvie\mods\optifine-1.12.2_HD_U_G5.jar
+[18:55:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:55:45] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[18:55:45] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[18:55:45] [main/DEBUG] [mixin]: Checking for additional mixins for MixinEnvironment[PREINIT]
+[18:55:45] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[18:55:45] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[18:55:45] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[18:55:45] [main/DEBUG] [FML]: Injection complete
+[18:55:45] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[18:55:45] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[18:55:47] [main/DEBUG] [FML]: Read 1154 binary patches

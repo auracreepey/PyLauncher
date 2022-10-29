@@ -10,19 +10,31 @@ mcversion = "1.12.2"
 #Imporation des modules, vérification de la connexion internet et
 #des mises à jours....
 
-#la fonction print() affiche des infos utiles dans les logs
+#Activation des logs
+import logging
+logging.basicConfig(level=logging.DEBUG,
+                    filename="launcher.log",
+                    filemode="a",
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+#logging() affiche des infos utiles dans les logs
 #Cela permet de savoir ce qui ce passe en temps réel
 #Ca peut servir pour localiser et résoudre des problèmes
+logging.info("----------------------------------")
+logging.info("----Empisurvie Python Launcher----")
+logging.info("----------------------------------")
+logging.info("            {]Logs[}")
+
 print("----------------------------------")
 print("----Empisurvie Python Launcher----")
 print("----------------------------------")
-
+print("            Console")
 
 #===========================================================
 #           ----Importation des modules----
 #===========================================================
 
-print("Importation des libs...")
+logging.info("Importation des libs...")
 
 #colorama permet d'afficher des couleurs dans la console
 import colorama
@@ -31,64 +43,67 @@ from colorama import Back, Fore, Style
 
 #Initialisation des couleurs de la console
 colorama.init(autoreset=True)
-print(Fore.YELLOW + "Colorama OK" + Fore.RESET)
+logging.info("[Libs] Colorama OK")
 
 
 #tkinter permet de créer des interfaces graphiques
 from tkinter import *
 from tkinter import messagebox
 from tkinter.ttk import Progressbar
-print(Fore.CYAN + "Tkinter OK" + Fore.RESET)
+logging.info("[Libs] Tkinter OK")
 
+#wget permet de télécharger des fichiers
+import wget
+logging.info("[Libs] WGET OK")
 
 #PIL permet de manipuler des images. Ici je l'utilise pour afficher des images avec tkinter
 from PIL import ImageTk, Image
-print(Fore.CYAN + "PIL OK" + Fore.RESET)
+logging.info("[Libs] PIL OK")
 
 
 #re est utilisé lors de la création du nom d'utilisateur
 import re
-print(Fore.CYAN + "re OK" + Fore.RESET)
+logging.info("[Libs] re OK")
 
 
 #os permet de réaliser des actions sur l'ordinateur (ex: copier/coller des fichiers)
 import os
-print(Fore.CYAN + "os OK" + Fore.RESET)
+logging.info("[Libs] os OK")
 
 
 #Répertoire d'installation des fichiers
 appdataDir = os.getenv('APPDATA')
 minecraft_directory = appdataDir + "\PyLaunchr\Empisurvie"
-print(minecraft_directory)
+logging.info("Répertoire de minecraft: " + minecraft_directory)
 
 #On vérifie la présence du répertoire d'installation
 #Si il n'existe pas, on le créé.
 if os.path.exists(appdataDir + "\PyLaunchr\Empisurvie"):
-    print(Fore.GREEN + "Répertoire trouvé" + Fore.RESET)
+    logging.info("Répertoire du jeu trouvé")
 else:
-    print(Fore.YELLOW + "Répertoire absent" + Fore.RESET)
+    logging.info("Répertoire du jeu absent")
     os.makedirs(minecraft_directory)
 
 #Pareil pour le répertoire "Downloads"...
 if os.path.exists(appdataDir + "\PyLaunchr\Downloads"):
-    print(Fore.GREEN + "Répertoire trouvé" + Fore.RESET)
+    logging.info("Répertoire de téléchargement trouvé")
 else:
-    print(Fore.YELLOW + "Répertoire absent" + Fore.RESET)
+    logging.info("Répertoire de téléchargement absent, création...")
     os.makedirs(appdataDir + "\PyLaunchr\Downloads")
 
 
 #Vérification de la version du launcher
-print(Fore.YELLOW + "Lancement de la recherche des mises à jour..." + Fore.RESET)
+logging.info("Lancement de la recherche des mises à jour...")
 import CheckVersion
 
 
 #Ici, on cherche le fichier username.txt
 #Si il n'existe pas, le joueur lance le launcher pour la première fois.
-if os.path.exists("username.txt") and os.path.exists(appdataDir + "\PyLaunchr\Downloads\mods.zip") and os.path.exists(minecraft_directory + "\mods"):
-    print(Fore.GREEN + "[Initialisation] Fichier username.txt trouvé" + Fore.RESET)
+if os.path.exists("username.txt") and os.path.exists(appdataDir + "\PyLaunchr\Downloads") and os.path.exists(minecraft_directory + "\Empisurvie\mods"):
+    logging.info("[Initialisation] Fichiers requis trouvés")
     FirstInit = 0
 else:
-    print(Fore.YELLOW + "[Initialisation] Fichier username.txt absent, affichage du message de bienvenu." + Fore.RESET)
+    logging.warn("[Initialisation] Fichiers requis absents, affichage du message de bienvenu.")
     #Message de bienvenu
     messagebox.showinfo(title="Bienvenu sur Empilauncher Python🚀, conçu par aura_creeper!!", message="Pour jouer, tu doit créer un nom d'utilisateur." + 
     ' Met le dans la case pseudo, puis clique sur "Sign Up Now"!')
@@ -103,7 +118,7 @@ else:
 #===========================================================
 #Tout ce qui est visible par l'utilisateur est créé ici!
 
-print(Fore.GREEN + "[Initialisation] Création de la fenêtre principale" + Fore.RESET)
+logging.info("[Initialisation] Création de la fenêtre principale")
 class LoginPage:
     def __init__(self, window):
 
@@ -171,7 +186,7 @@ class LoginPage:
             #Et on ferme le fichier pour éviter les problèmes x)
             self.usernameFile.close()
         else:
-            print("Le fichier n'existe pas")
+            logging.warn("Le fichier username.txt n'existe pas")
             self.defaultuser=StringVar()
             self.defaultuser.set("Met ton pseudo ici!")
             self.usernameFile = open("username.txt", "w")
@@ -278,7 +293,7 @@ class LoginPage:
     #Si un compte est déjà existant, il sera remplacé
     #Cette partie est celle qui m'a pris le plus de temps à faire de tout le launcher x)
     def newuser(self):
-        print(Fore.YELLOW + "[Auth] Création d'un nouveau compte" + Fore.RESET)
+        logging.info("[Auth] Création d'un nouveau compte")
 
         #self.username_entry correspond a l'input "nom d'utilisateur"
         #On peut obtenir le contenu de cette variable grace à pack()
@@ -299,9 +314,9 @@ class LoginPage:
             #Maintenant, on vérifie que le nom d'utilisateur ne contient pas des caractères qui
             #posent problèmes (espace, %, !, etc...)
             if re.match("^[a-zA-Z0-9_]*$", self.username):
-                print(Fore.GREEN + "[AuthCreate] Nom d'utilisateur valide" + Fore.RESET)
-                print(Fore.GREEN + "[AuthCreate] Nouveau nom d'utilisateur : " + self.username + Fore.RESET)
-                print(Fore.GREEN + "[AuthCreate] Ecriture du nom d'utilisateur" + Fore.RESET)
+                logging.info("[AuthCreate] Nom d'utilisateur valide")
+                logging.info("[AuthCreate] Nouveau nom d'utilisateur : " + self.username)
+                logging.info("[AuthCreate] Ecriture du nom d'utilisateur")
                 messagebox.showinfo(title="Création réussi", message="Bienvenu " + self.username + "!")
                 messagebox.showinfo(title="Création réussi", message="Votre compte est mainenant créé. Cliquez sur jouer pour commencer le téléchargement du jeu." + 
                                     " Vous devrez créer un mot de passe lors de la première connexion au serveur.")
@@ -317,19 +332,19 @@ class LoginPage:
             else:
                 #La fonction messagebox permet d'afficher une fenêtre en plus avec des informations
                 messagebox.showerror(title="Erreur", message="Votre identifiant contient des caractères invalides!")
-                print(Fore.RED + "[AuthCreate] Création échoué: Contient des caractères invalides!" + Fore.RESET)
+                logging.error("[AuthCreate] Création échoué: Contient des caractères invalides!")
 
         else:
-            print(Fore.RED + "[AuthCreate] Création échoué: Trop ou pas assez de caractères!" + Fore.RESET)
+            logging.error("[AuthCreate] Création échoué: Trop ou pas assez de caractères!")
             messagebox.showerror(title="Error", message="Votre identifiant est trop court/long!")
 
     def SetRam(self):
         self.ramSet = self.ramSpinbox.get()
         
         if os.path.exists("ram.txt"):
-            print(Fore.GREEN + "[RamCheck] Fichier ram.txt trouvé" + Fore.RESET)
+            logging.info("[RamCheck] Fichier ram.txt trouvé")
         else:
-            print(Fore.YELLOW + "[RamCheck] Fichier ram.txt absent, création..." + Fore.RESET)
+            logging.warn("[RamCheck] Fichier ram.txt absent, création...")
             self.ramFile = open("ram.txt", "w")
             self.ramFile.close()
         
@@ -337,9 +352,8 @@ class LoginPage:
         self.ramFile.write(str(self.ramSet))
         self.ramFile.close()
 
-        print("--ram--")
-        print(self.ramSet)
-        print("-------")
+        logging.info("Valeur de la ram modifié. Nouvelle valeur:")
+        logging.info(self.ramSet)
 
 
 
@@ -357,27 +371,28 @@ class LoginPage:
 
         self.usernameFile.close()
         
-        #password = "012345"
         if self.username=="NotSet!":
             messagebox.showerror(title="Erreur", message="Pour jouer, vous devez créer un identifiant!")
-            print(Fore.RED + "[AuthError] Autentification échoué: le joueur n'a pas encore créé son nom d'utilisateur!" + Fore.RESET)
+            logging.error("[AuthError] Autentification échoué: le joueur n'a pas encore créé son nom d'utilisateur!")
 
         else:
             if self.username==self.userEntry:
                 messagebox.showinfo(title="Login Success", message="Vous êtes connecté, lancement du jeu...")
-                print(Fore.GREEN + "[Auth] Autentification réussi" + Fore.RESET)
+                logging.info("[Auth] Autentification réussi")
 
                 #Si le joueur lance le launcher pour la première fois, on installe le jeu
                 #Sinon on ignore cette étape
-                if FirstInit == 1:
+                #Note: Cette étape fait freeze le launcher.
+                if os.path.exists(appdataDir + "\\PyLaunchr\\Empisurvie\\assets") and os.path.exists(appdataDir + "\PyLaunchr\Empisurvie\libraries") and os.path.exists(appdataDir + "\PyLaunchr\Empisurvie\mods"):
+                    logging.info("[MainInstaller] Installation du jeu ignoré, lancement du jeu...")
+                else:
                     messagebox.showinfo(title="Installation requise", message="Minecraft n'est pas encore installé. " + 
                     "Le launcher va se charger d'installer le jeu, la fenêtre du launcher va frezze pendant l'opération. " + 
                     "Vous pourrez suivre l'avancement de l'installation dans les logs.")
-                    print(Fore.GREEN + "[MainInstaller] Initialisation de l'installation" + Fore.RESET)
+                    logging.info("[MainInstaller] Initialisation de l'installation")
                     self.installGame()
-                else:
-                    print(Fore.GREEN + "[MainInstaller] Installation du jeu ignoré, lancement du jeu..." + Fore.RESET)
-                print(Fore.GREEN + "[Initalisation] initialisation du jeu" + Fore.RESET)
+                    
+                logging.info("[Initalisation] initialisation du jeu")
 
                 #Destruction de la fenêtre
                 self.window.destroy()
@@ -386,30 +401,31 @@ class LoginPage:
 
             else:
                 messagebox.showerror(title="Erreur", message="Indentifiant invalide.")
-                print(Fore.RED + "[AuthError] Autentification échoué: Mauvais nom d'utilisateur!" + Fore.RESET)
-                print(Fore.RED + "[AuthError] Nom d'utilisateur entré : " + self.userEntry  + Fore.RESET)
-                print(Fore.RED + "[AuthError] Nom d'utilisateur attendu : " +self.username  + Fore.RESET)
+                logging.error("[AuthError] Autentification échoué: Mauvais nom d'utilisateur!")
+                logging.error("[AuthError] Nom d'utilisateur entré : " + self.userEntry )
+                logging.error("[AuthError] Nom d'utilisateur attendu : " + self.username )
     
     #===========================================================
     #          Installation, et gestion de minecraft
     #===========================================================
 
     def installGame(self):
-        print(Fore.BLUE + "Installation du jeu!" + Fore.RESET)
+        logging.info(Fore.BLUE + "Installation du jeu!")
 
-        print(minecraft_directory)
+        logging.info("Répertoire du jeu:")
+        logging.info(minecraft_directory)
 
         import minecraft_launcher_lib
 
-        print("Version de minecraft: " + mcversion)
+        logging.info("Version de minecraft: " + mcversion)
 
         forge_version = minecraft_launcher_lib.forge.find_forge_version(mcversion)
         if forge_version is None:
-            print("This Minecraft Version is not supported by Forge")
+            logging.info("This Minecraft Version is not supported by Forge")
         else:
-            print("Version de forge:" + forge_version)
+            logging.info("Version de forge:" + forge_version)
 
-
+        print("Installation du jeu....")
         # Taken from https://stackoverflow.com/questions/3173320/text-progress-bar-in-the-console
         def printProgressBar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█', printEnd="\r"):
             """
@@ -464,11 +480,51 @@ class LoginPage:
             main()
         
     def game(self):
+        #Appdata
+        appdataDir = os.getenv('APPDATA')
+        download_directory = appdataDir + "\PyLaunchr\Downloads"
+
+        #Supprime le fichier de la version cible (du fichier online) si il existe
+        if os.path.exists(appdataDir + "\PyLaunchr\Downloads\ArchiveUpdate.txt"):
+            os.remove(appdataDir + "\PyLaunchr\Downloads\ArchiveUpdate.txt")
+        
+        #Chemin de l'url du fichier en ligne
+        url = "http://185.171.202.142/minecraft/pylauncher/Empisurvie/ArchiveUpdate.txt"
+        #Téléchargement du fichier de la version cible
+        wget.download(url, download_directory)
+
         #Vérification mods
-        if os.path.exists(appdataDir + "\PyLaunchr\Downloads\mods.zip"):
-            print(Fore.GREEN + "[ModsInstaller] Mods trouvés" + Fore.RESET)
+        if os.path.exists(appdataDir + "\PyLaunchr\Empisurvie\mods"): # and os.path.exists(appdataDir + "\\PyLaunchr\\Downloads\\archive.zip"):
+
+            #Ouverture du fichier téléchargé pour le comparer à la version locale
+            ArchiveVersionFileOnline = open(appdataDir + "\PyLaunchr\Empisurvie\ArchiveUpdate.txt", "rt")
+            ArchiveVersionOnline=ArchiveVersionFileOnline.read()
+            logging.info("Version de l'archive à jour:")
+            logging.info(ArchiveVersionFileOnline.read())
+            ArchiveVersionFileOnline.close()
+
+            #Ouverture du fichier installé pour le comparer à la version en ligne
+            ArchiveVersionFileLocal = open(appdataDir + "\PyLaunchr\Empisurvie\ArchiveUpdate.txt", "rt")
+            ArchiveVersionLocal=ArchiveVersionFileLocal.read()
+            logging.info("Version de l'acrhive actuellement installé:")
+            logging.info(ArchiveVersionFileLocal.read())
+            ArchiveVersionFileLocal.close()
+
+            #Affichage du résultat
+            if ArchiveVersionLocal == ArchiveVersionOnline:
+                logging.info("[ModsInstaller] Version du pack à jour!")
+            else:
+                logging.warn( +"[ModsInstaller] Version du pack obsolete. Nouvelle version disponible: " + ArchiveVersionOnline)
+                messagebox.showinfo(title="Mise à jour de l'archive nécéssaire", message="Une mise à jour des ressources est nécéssaire, " + 
+                                "le jeu démarrera automatiquement une fois l'installation terminée..." + 
+                                "Cette opération prend 1 à 2min")
+                import DownloadMods
+
         else:
-            print(Fore.YELLOW + "[ModsInstaller] Mods absents" + Fore.RESET)
+            logging.warn("[ModsInstaller] Fichier mods absent")
+            messagebox.showinfo(title="Mise à jour de l'archive nécéssaire", message="Une mise à jour des ressources est nécéssaire, " + 
+                                "le jeu démarrera automatiquement une fois l'installation terminée..." + 
+                                "Cette opération prend 1 à 2min")
             import DownloadMods
             
         #Lancement du jeu
@@ -494,5 +550,5 @@ if __name__ == '__main__':
     page()
 
 
-
+logging.info("Arret du launcher.")
 print(Fore.RED + "[Arrêt du launcher]" + Fore.RESET)

@@ -4,6 +4,12 @@
 #Ici, on vérifie que le client est connecté à internet, puis on cherche les mises à jour
 
 
+#Activation des logs
+import logging
+logging.basicConfig(level=logging.DEBUG,
+                    filename="launcher.log",
+                    filemode="a",
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 #---Importation des modules---
 #wget est utilisé pour télécharger des fichiers
@@ -29,15 +35,17 @@ import requests
 #===========================================================
 #Ici on vérifie que l'utilisateur est connecté à internet
 
-print(Fore.YELLOW + "Tentative de connexion aux serveurs..." + Fore.RESET)
+logging.info("Tentative de connexion aux serveurs...")
+print(Fore.BLUE + "Chargement du Launcher..." + Fore.RESET)
 
 url = "https://www.google.fr/"
 timeout = 5
 try:
   request = requests.get(url, timeout=timeout)
-  print(Fore.GREEN + "Client en ligne" + Fore.RESET)
+  logging.info("Client en ligne")
 except (requests.ConnectionError, requests.Timeout) as exception:
-  print(Fore.RED + "Erreur: Le client n'est pas connecté à internet, ou Google est dead\nArrêt du launcher." + Fore.RESET)
+  print(Fore.RED + "Aucune connexion internet" + Fore.RESET)
+  logging.info("Erreur: Le client n'est pas connecté à internet, ou Google est dead\nArrêt du launcher.")
   messagebox.showerror(title="Connxion à internet requise", message="Il semblerait que vous ne soyez pas connecté à internet.\n" + 
   "Une connexion à internet est requise pour lancer le launcher, vérifiez votre connexion et réessayez.")
   sys.exit()
@@ -47,8 +55,10 @@ url = "http://185.171.202.142/minecraft"
 timeout = 5
 try:
   request = requests.get(url, timeout=timeout)
-  print(Fore.GREEN + "Serveur en ligne!" + Fore.RESET)
+  logging.info("Serveur en ligne!")
 except (requests.ConnectionError, requests.Timeout) as exception:
+  logging.CRITICAL("Erreur: Le serveur est down. Arret du launcher.")
+
   print(Fore.RED + "Erreur: Le serveur est down" + 
   "\nNote: Vu que le serveur n'est pas disponible, toutes les opérations vont echouer et le launcher ne va fonctionner correctement.\nArret du launcher." + Fore.RESET)
 
@@ -72,7 +82,7 @@ LauncherVersion = "1.0.0"
 #            md5h.update(chunk)
 #    return md5h.hexdigest()
 
-print(Fore.BLUE +"Version du launcher: " + LauncherVersion + Fore.RESET)
+print(Fore.BLUE +"Version du launcher: " + LauncherVersion )
 
 
 
@@ -104,8 +114,8 @@ LatestVersionFile.close()
 
 #Affichage du résultat
 if LastVersion == LauncherVersion:
-    print(Fore.GREEN + "Version à jour!" + Fore.RESET)
+    logging.info("Version à jour!" )
 else:
-    print(Fore.RED +"Version obsolete. Nouvelle version disponible: " + LastVersion + Fore.RED)
+    logging.info(Fore.RED +"Version obsolete. Nouvelle version disponible: " + LastVersion + Fore.RED)
     messagebox.showerror(title="Version obsolete", message="Une mise à jour du launcher est disponible! (" + LastVersion +
                         "). Veuillez la télécharger pour obtenir les dernières nouveautés et correctifs de bug.")
