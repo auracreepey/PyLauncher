@@ -3,7 +3,7 @@
 
 # Crédits
 
-Fenêtre du launcher : Script pompé sur une vidéo de Sen Gideons https://www.youtube.com/watch?v=gOtzf-Yhn-k
+Fenêtre du launcher : https://www.youtube.com/watch?v=gOtzf-Yhn-k
 
 # Todo :
 
