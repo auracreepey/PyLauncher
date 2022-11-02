@@ -27,7 +27,7 @@ import logging
 #    return md5h.hexdigest()
 
 #Chemin de l'url pour le téléchargement
-url = "http://185.171.202.142/minecraft/pylauncher/Empisurvie/archive.zip"
+url = "http://185.171.202.142/minecraft/launchers/pylauncher/Empisurvie/archive.zip"
 
 #Appdata
 appdataDir = os.getenv('APPDATA')
@@ -36,8 +36,10 @@ download_directory = appdataDir + "\PyLaunchr\Downloads"
 destination_directory = appdataDir + "\PyLaunchr"
 
 #Téléchargement des fichiers
+logging.info('Téléchargement des ressources...')
 print("Téléchargement des ressources...")
 wget.download(url, download_directory)
+logging.info('Téléchargement des ressources terminé')
 
 #Chemin d'accès du fichier téléchargé
 file = download_directory + "\\archive.zip"
@@ -49,7 +51,9 @@ with ZipFile(file, 'r') as zip:
 
     #Extraire les fichiers
     logging.info('extraction...')
+    print('Extraction en cours...')
     zip.extractall(destination_directory)
-    logging.info('Terminé!')
+    logging.info('Extraction des ressources terminé!')
+    print('Téléchargement terminé !')
 
 

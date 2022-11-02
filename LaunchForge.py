@@ -37,7 +37,7 @@ mcversion = "1.12.2"
 launch_version_id = "1.12.2-forge-14.23.5.2860"
 
 #Allocution de ram par défaut pour java
-ram = "3"
+ram = "2"
 
 logging.info("Version de minecraft: " + mcversion)
 

@@ -39,7 +39,7 @@
   },
   {
    "optionDest": "disable_windowed_traceback",
-   "value": true
+   "value": false
   },
   {
    "optionDest": "embed_manifest",

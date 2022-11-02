@@ -87,7 +87,7 @@ print(Fore.BLUE +"Version du launcher: " + LauncherVersion )
 
 
 #Chemin de l'url
-url = "http://185.171.202.142/minecraft/pylauncher/Empisurvie/LauncherUpdate.txt"
+url = "http://185.171.202.142/minecraft/launchers/pylauncher/Empisurvie/LauncherUpdate.txt"
 
 #Appdata
 appdataDir = os.getenv('APPDATA')

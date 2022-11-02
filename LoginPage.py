@@ -1,38 +1,58 @@
-#EmpiLauncher Py
-#Par aura_creeper
+#=========================
+#-----EmpiLauncher Py-----
+#-----Par aura_creeper----
+#=========================
 
 #Version du jeu de base (vanilla)
+#Pour changer la version du jeu, il faut aussi modifier la valeur de "mcversion" dans LaunchForge.py
 mcversion = "1.12.2"
 
-#===========================================================
-#                ----Initialisation----
-#===========================================================
-#Imporation des modules, vérification de la connexion internet et
-#des mises à jours....
 
+#===========================================================
+#                ----Pré Initialisation----
+#===========================================================
 #Activation des logs
+
+#os permet de réaliser des actions sur l'ordinateur (ex: copier/coller des fichiers)
+import os
+
+#On supprime les logs précédents du launcher si il y en a
+if os.path.exists("launcher.log"):
+    os.remove("launcher.log")
+
+#Paramètrage et activation des logs
 import logging
 logging.basicConfig(level=logging.DEBUG,
                     filename="launcher.log",
                     filemode="a",
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+                    format='[%(asctime)s] - [%(levelname)s] -> %(message)s')
 
-#logging() affiche des infos utiles dans les logs
-#Cela permet de savoir ce qui ce passe en temps réel
-#Ca peut servir pour localiser et résoudre des problèmes
+#logging() enregistre des infos utiles dans le fichier launcher.log
+#Cela permet de savoir ce que fait le launcher
+#Ca peut servir pour localiser et résoudre des bugs
 logging.info("----------------------------------")
 logging.info("----Empisurvie Python Launcher----")
 logging.info("----------------------------------")
 logging.info("            {]Logs[}")
 
+#Ici on affiche des infos sur la console du launcher
 print("----------------------------------")
 print("----Empisurvie Python Launcher----")
 print("----------------------------------")
 print("            Console")
+print(".")
+print("Les actions effectués par le launcher sont affichés ici!")
+
+
+
 
 #===========================================================
-#           ----Importation des modules----
+#                  ----Initialisation----
 #===========================================================
+#Imporation des modules, vérification de la connexion internet et
+#des mises à jours....
+
+#----Initialisation des modules----
 
 logging.info("Importation des libs...")
 
@@ -60,16 +80,12 @@ logging.info("[Libs] WGET OK")
 from PIL import ImageTk, Image
 logging.info("[Libs] PIL OK")
 
-
 #re est utilisé lors de la création du nom d'utilisateur
 import re
 logging.info("[Libs] re OK")
 
 
-#os permet de réaliser des actions sur l'ordinateur (ex: copier/coller des fichiers)
-import os
-logging.info("[Libs] os OK")
-
+#----Vérifiaction des fichiers et de la version installé----
 
 #Répertoire d'installation des fichiers
 appdataDir = os.getenv('APPDATA')
@@ -99,11 +115,11 @@ import CheckVersion
 
 #Ici, on cherche le fichier username.txt
 #Si il n'existe pas, le joueur lance le launcher pour la première fois.
-if os.path.exists("username.txt") and os.path.exists(appdataDir + "\PyLaunchr\Downloads") and os.path.exists(minecraft_directory + "\Empisurvie\mods"):
+if os.path.exists("username.txt") and os.path.exists(appdataDir + "\PyLaunchr\Downloads"):
     logging.info("[Initialisation] Fichiers requis trouvés")
     FirstInit = 0
 else:
-    logging.warn("[Initialisation] Fichiers requis absents, affichage du message de bienvenu.")
+    logging.warning("[Initialisation] Fichiers requis absents, affichage du message de bienvenu.")
     #Message de bienvenu
     messagebox.showinfo(title="Bienvenu sur Empilauncher Python🚀, conçu par aura_creeper!!", message="Pour jouer, tu doit créer un nom d'utilisateur." + 
     ' Met le dans la case pseudo, puis clique sur "Sign Up Now"!')
@@ -111,6 +127,7 @@ else:
     FirstInit = 1
     #Le fichier username.txt est créé plus tard, une fois que la fenêtre principale est chargé.
 
+logging.info("[Initialisation] Création de la fenêtre principale")
 
 
 #===========================================================
@@ -118,7 +135,7 @@ else:
 #===========================================================
 #Tout ce qui est visible par l'utilisateur est créé ici!
 
-logging.info("[Initialisation] Création de la fenêtre principale")
+#Inspiré de Sen Gideons https://www.youtube.com/watch?v=gOtzf-Yhn-k
 class LoginPage:
     def __init__(self, window):
 
@@ -186,7 +203,7 @@ class LoginPage:
             #Et on ferme le fichier pour éviter les problèmes x)
             self.usernameFile.close()
         else:
-            logging.warn("Le fichier username.txt n'existe pas")
+            logging.warning("Le fichier username.txt n'existe pas")
             self.defaultuser=StringVar()
             self.defaultuser.set("Met ton pseudo ici!")
             self.usernameFile = open("username.txt", "w")
@@ -344,7 +361,7 @@ class LoginPage:
         if os.path.exists("ram.txt"):
             logging.info("[RamCheck] Fichier ram.txt trouvé")
         else:
-            logging.warn("[RamCheck] Fichier ram.txt absent, création...")
+            logging.warning("[RamCheck] Fichier ram.txt absent, création...")
             self.ramFile = open("ram.txt", "w")
             self.ramFile.close()
         
@@ -384,7 +401,7 @@ class LoginPage:
                 #Sinon on ignore cette étape
                 #Note: Cette étape fait freeze le launcher.
                 if os.path.exists(appdataDir + "\\PyLaunchr\\Empisurvie\\assets") and os.path.exists(appdataDir + "\PyLaunchr\Empisurvie\libraries") and os.path.exists(appdataDir + "\PyLaunchr\Empisurvie\mods"):
-                    logging.info("[MainInstaller] Installation du jeu ignoré, lancement du jeu...")
+                    logging.info("[MainInstaller] Installation du jeu ignoré, normalement les fichiers requis sont déjà installés, lancement du jeu...")
                 else:
                     messagebox.showinfo(title="Installation requise", message="Minecraft n'est pas encore installé. " + 
                     "Le launcher va se charger d'installer le jeu, la fenêtre du launcher va frezze pendant l'opération. " + 
@@ -487,47 +504,42 @@ class LoginPage:
         #Supprime le fichier de la version cible (du fichier online) si il existe
         if os.path.exists(appdataDir + "\PyLaunchr\Downloads\ArchiveUpdate.txt"):
             os.remove(appdataDir + "\PyLaunchr\Downloads\ArchiveUpdate.txt")
+        else:
+            import DownloadMods
         
         #Chemin de l'url du fichier en ligne
-        url = "http://185.171.202.142/minecraft/pylauncher/Empisurvie/ArchiveUpdate.txt"
+        url = "http://185.171.202.142/minecraft/launchers/pylauncher/Empisurvie/ArchiveUpdate.txt"
         #Téléchargement du fichier de la version cible
         wget.download(url, download_directory)
 
-        #Vérification mods
-        if os.path.exists(appdataDir + "\PyLaunchr\Empisurvie\mods"): # and os.path.exists(appdataDir + "\\PyLaunchr\\Downloads\\archive.zip"):
 
-            #Ouverture du fichier téléchargé pour le comparer à la version locale
-            ArchiveVersionFileOnline = open(appdataDir + "\PyLaunchr\Empisurvie\ArchiveUpdate.txt", "rt")
-            ArchiveVersionOnline=ArchiveVersionFileOnline.read()
-            logging.info("Version de l'archive à jour:")
-            logging.info(ArchiveVersionFileOnline.read())
-            ArchiveVersionFileOnline.close()
+        #Ouverture du fichier téléchargé pour le comparer à la version locale
+        ArchiveVersionFileOnline = open(appdataDir + "\PyLaunchr\Downloads\ArchiveUpdate.txt", "rt")
+        ArchiveVersionOnline=ArchiveVersionFileOnline.read()
 
-            #Ouverture du fichier installé pour le comparer à la version en ligne
-            ArchiveVersionFileLocal = open(appdataDir + "\PyLaunchr\Empisurvie\ArchiveUpdate.txt", "rt")
-            ArchiveVersionLocal=ArchiveVersionFileLocal.read()
-            logging.info("Version de l'acrhive actuellement installé:")
-            logging.info(ArchiveVersionFileLocal.read())
-            ArchiveVersionFileLocal.close()
+        logging.info("Version de la dernière archive disponible:")
+        logging.info(ArchiveVersionOnline)
+        ArchiveVersionFileOnline.close()
 
-            #Affichage du résultat
-            if ArchiveVersionLocal == ArchiveVersionOnline:
-                logging.info("[ModsInstaller] Version du pack à jour!")
-            else:
-                logging.warn( +"[ModsInstaller] Version du pack obsolete. Nouvelle version disponible: " + ArchiveVersionOnline)
-                messagebox.showinfo(title="Mise à jour de l'archive nécéssaire", message="Une mise à jour des ressources est nécéssaire, " + 
-                                "le jeu démarrera automatiquement une fois l'installation terminée..." + 
-                                "Cette opération prend 1 à 2min")
-                import DownloadMods
+        #Ouverture du fichier installé pour le comparer à la version en ligne
+        ArchiveVersionFileLocal = open(appdataDir + "\PyLaunchr\Empisurvie\ArchiveUpdate.txt", "rt")
+        ArchiveVersionLocal=ArchiveVersionFileLocal.read()
 
+        logging.info("Version de l'archive actuellement installé:")
+        logging.info(ArchiveVersionLocal)
+        ArchiveVersionFileLocal.close()
+
+        #Affichage du résultat
+        if ArchiveVersionLocal == ArchiveVersionOnline:
+            logging.info("[ModsInstaller] Version du pack à jour!")
         else:
-            logging.warn("[ModsInstaller] Fichier mods absent")
+            logging.warning("[ModsInstaller] Version du pack obsolete. Nouvelle version disponible: " + ArchiveVersionOnline)
             messagebox.showinfo(title="Mise à jour de l'archive nécéssaire", message="Une mise à jour des ressources est nécéssaire, " + 
-                                "le jeu démarrera automatiquement une fois l'installation terminée..." + 
-                                "Cette opération prend 1 à 2min")
+                            "le jeu démarrera automatiquement une fois l'installation terminée..." + 
+                            "Cette opération prend 1 à 2min")
             import DownloadMods
             
-        #Lancement du jeu
+        #Initialisation et lancement du jeu !!
         import LaunchForge
 
 
