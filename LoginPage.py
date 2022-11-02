@@ -536,7 +536,7 @@ class LoginPage:
             logging.warning("[ModsInstaller] Version du pack obsolete. Nouvelle version disponible: " + ArchiveVersionOnline)
             messagebox.showinfo(title="Mise à jour de l'archive nécéssaire", message="Une mise à jour des ressources est nécéssaire, " + 
                             "le jeu démarrera automatiquement une fois l'installation terminée..." + 
-                            "Cette opération prend 1 à 2min")
+                            "Vous pourrez suivre l'avancement du téléchargement dans la console")
             import DownloadMods
             
         #Initialisation et lancement du jeu !!

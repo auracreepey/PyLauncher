@@ -10,7 +10,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG,
                     filename="launcher.log",
                     filemode="a",
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+                    format='[%(asctime)s] [DlMods] - [%(levelname)s] -> %(message)s')
 
 #Importation des modules
 import wget
@@ -37,6 +37,7 @@ destination_directory = appdataDir + "\PyLaunchr"
 
 #Téléchargement des fichiers
 logging.info('Téléchargement des ressources...')
+print(" Ok!")
 print("Téléchargement des ressources...")
 wget.download(url, download_directory)
 logging.info('Téléchargement des ressources terminé')
@@ -45,12 +46,10 @@ logging.info('Téléchargement des ressources terminé')
 file = download_directory + "\\archive.zip"
 
 #Extraction du fichier .zip en mode lecture (r=read)
-with ZipFile(file, 'r') as zip: 
-    #Afficher tout le contenu du .zip dans la console
-    zip.logging.infodir()
+with ZipFile(file, 'r') as zip:
 
     #Extraire les fichiers
-    logging.info('extraction...')
+    logging.info('Extraction...')
     print('Extraction en cours...')
     zip.extractall(destination_directory)
     logging.info('Extraction des ressources terminé!')
