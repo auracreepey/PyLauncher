@@ -4,11 +4,17 @@
 # Crédits
 ## Libraries python utilisés:
 -Colorama
+
 -Tkinter
+
 -WGET
+
 -PIL
+
 -re
+
 -os
+
 -minecraft launcher lib (https://pypi.org/project/minecraft-launcher-lib/)
 
 ## Fenêtre du launcher :
